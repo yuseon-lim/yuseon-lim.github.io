@@ -2,6 +2,10 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+* {
+  font-family: $sans-serif;
+}
+
 #main {
   @include clearfix;
   margin-left: auto;
@@ -73,7 +77,7 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    color: $primary-color;
     text-decoration: none;
   }
 
