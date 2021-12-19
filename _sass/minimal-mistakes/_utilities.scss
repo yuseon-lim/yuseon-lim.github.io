@@ -211,6 +211,11 @@ body:hover .visually-hidden button {
     color: $text-color;
   }
 
+  // 카카오톡 공유 버튼
+  .fa-comment {
+    color: $kakaotalk-color;   // 노랑색
+  }
+
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
