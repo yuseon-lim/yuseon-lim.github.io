@@ -3,7 +3,7 @@ title:  "Github blog 시작합니다 :)"
 excerpt: "첫번째 포스팅"
 
 categories:
-  - Etc
+  - Github Blog
 tags:
   - # [Blog, jekyll, Github, Git]
 
