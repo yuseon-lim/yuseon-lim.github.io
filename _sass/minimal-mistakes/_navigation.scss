@@ -503,21 +503,13 @@
      Table of contents navigation
      ========================================================================== */
 
-.toc {
+  .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
-  background-color: $background-color;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  -webkit-box-shadow: $box-shadow;
-  box-shadow: $box-shadow;
+  border-left: 1px solid $border-color;
 
   .nav__title {
-    color: $background-color;
-    font-size: $type-size-6;
-    background: $primary-color;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
+    color: $primary-color;
+    font-size: $type-size-7;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
@@ -531,10 +523,11 @@
   padding: 0;
   width: 100%;
   list-style: none;
+  text-decoration: none;
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: 0.8em;
   }
 
   a {
@@ -543,10 +536,9 @@
     color: $muted-text-color;
     font-weight: bold;
     line-height: 1.5;
-    border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: $text-color;
+      color: $link-color;
     }
   }
 
