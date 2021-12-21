@@ -409,12 +409,12 @@ client.disconnect()
         <tr><th>시작 시간</th><th>수행 시간</th></tr>
     </thead>
     <tbody>
-        {% for key in dict : %}
+        {% raw %}{% for key in dict : %}
     <tr>
-        <td>{% raw %}{% print(key) %}{% enraw %}</td>
-        <td>{% raw %}{% print(dict[key]) %}{% endraw %}</td>
+        <td>{% print(key) %}}</td>
+        <td>{% print(dict[key]) %}</td>
     </tr>
-        {% endfor %}
+        {% endfor %}{% endraw %}
     </tbody>
 </table>
 </br>
@@ -444,12 +444,12 @@ client.disconnect()
         <tr><th>시작 시간</th><th>수행 시간</th></tr>
     </thead>
     <tbody>
-        {% for key in dict : %}
+        {% raw %}{% for key in dict : %}
     <tr>
-        <td>{% raw %}{% print(key) %}{% endraw %}</td>
-        <td>{% raw %}{% print(dict[key]) %}{% endraw %}</td>
+        <td>{% print(key) %}}</td>
+        <td>{% print(dict[key]) %}</td>
     </tr>
-        {% endfor %}
+        {% endfor %}{% endraw %}
     </tbody>
 </table>
 </br>
