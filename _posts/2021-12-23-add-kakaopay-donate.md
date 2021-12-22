@@ -1,4 +1,5 @@
 ---
+published: true
 title:  "[Github Blog] 깃허브 블로그에 카카오페이 Buy me a coffee 후원버튼 달기"
 excerpt: "깃허브 블로그에 카카오페이 송금하기 후원버튼 달기"
 
