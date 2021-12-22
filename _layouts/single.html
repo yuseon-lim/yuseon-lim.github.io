@@ -48,10 +48,14 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         
-        <div id="kakao-pay-link-btn">
+        <div class="donation-btn">
         <a href="https://qr.kakaopay.com/Ej8Nk2UNL" class="btn btn--kakaopay">
           <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
-          <span>Buy me a coffee ❤️</span>
+          <span>카카오페이로 커피사기 ❤️</span>
+        </a>
+        <a href="https://toss.me/yuseonlim" class="btn btn--toss">
+          <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
+          <span>토스로 커피사기 ❤️</span>
         </a>
       </div>
       </section>

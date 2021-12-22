@@ -40,7 +40,8 @@
   (facebook, $facebook-color),
   (twitter, $twitter-color),
   (comment, $kakaotalk-color),
-  (kakaopay, $link-color),
+  (kakaopay, $kakaotalk-color),
+  (toss, $toss-color),
   (linkedin, $linkedin-color);
 
   @each $buttoncolor, $color in $buttoncolors {
