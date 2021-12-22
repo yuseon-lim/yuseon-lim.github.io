@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "[Github Blog] 깃허브 블로그에 카카오페이 Buy me a coffee 후원버튼 달기"
+title:  "[Github Blog] 깃허브 블로그에 카카오페이,토스 Buy me a coffee 후원버튼 달기"
 excerpt: "깃허브 블로그에 카카오페이 송금하기 후원버튼 달기"
 
 categories:
@@ -83,5 +83,22 @@ div#kakao-pay-link-btn {
 
 단점은 모바일에서만 가능하다는 것인데, 후에 PC환경에서도 가능한 수단을 발견하면 추가로 공유해야겠다😊
 
-
 자세한 변경사항 및 소스코드는 [4ed07fd](https://github.com/devyuseon/devyuseon.github.io/commit/4ed07fd03db69413452a5b7912fe7a746799f6ce) 여기 참고해 주세요 :)
+
+<br>
+
++) 금방 생각이 났다 ㅋㅋ
+
+## 토스로 송금받기
+
+토스에 '토스아이디'라는 기능이 있다.
+![ㅇㅇ1 (2)](https://user-images.githubusercontent.com/67352902/147143568-c484d34a-3a28-47a7-9898-799f4e9ff880.png){: .align-center}
+여기서 토스 아이디를 설정하고, 링크를 복사한 뒤 똑같이 `href`부분에 넣으면 된다! 그럼 아래 이미지처럼 완성된다😊
+
+![image](https://user-images.githubusercontent.com/67352902/147143983-6ed53774-0df4-4f2e-9ed7-240435ff3385.png){: .align-center}
+
+버튼 너비 맞추려고 '카페' '토스'로 할까 했지만 너비 지정하면 반응형이 안되기 때문에 그냥,, 이렇게 해야겠다:) 혹시 좋은 방법 아시면 소개 해주세용
+
+이에 대한 변경사항 및 소스코드는 [e95c663](https://github.com/devyuseon/devyuseon.github.io/commit/e95c663d4f3fae7ae0b4af48a5fdc8eb46ad5da0) 여기 있습니다~
+
+<br>
