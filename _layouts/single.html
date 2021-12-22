@@ -47,6 +47,13 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        
+        <div id="kakao-pay-link-btn">
+        <a href="https://qr.kakaopay.com/Ej8Nk2UNL" class="btn btn--kakaopay">
+          <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
+          <span>Buy me a coffee ❤️</span>
+        </a>
+      </div>
       </section>
 
       <footer class="page__meta">
