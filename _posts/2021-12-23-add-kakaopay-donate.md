@@ -89,7 +89,7 @@ div#kakao-pay-link-btn {
 
 +) 금방 생각이 났다 ㅋㅋ
 
-## 토스로 송금받기
+# 토스로 송금받기
 
 토스에 '토스아이디'라는 기능이 있다.
 ![ㅇㅇ1 (2)](https://user-images.githubusercontent.com/67352902/147143568-c484d34a-3a28-47a7-9898-799f4e9ff880.png){: .align-center}
