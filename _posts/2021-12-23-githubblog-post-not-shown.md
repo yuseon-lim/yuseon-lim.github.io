@@ -47,7 +47,7 @@ last_modified_at: 2021-12-23
 
 <br>
 
-나는 futrue: ture랑 publish시도하고 해결했다.
+나는 futrue: ture랑 publish시도하고 해결했다. 해당 변경사항 -> [6dba5ff](https://github.com/devyuseon/devyuseon.github.io/commit/6dba5ffbdf72f861fb471d03bb9d5bdc7029a2ac)
 
 똑같은 상황에서 이 포스팅을 발견하시는 모든분들에게 도움이 되길..🙏
 
