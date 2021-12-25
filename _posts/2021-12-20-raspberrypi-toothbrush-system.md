@@ -27,13 +27,19 @@ last_modified_at: 2021-12-20
 -   Javascript
 -   css
 
+<br>
+
 ### 개발환경
 - 라즈베리파이3 B+
 -   Linux, 라즈비안
 
+<br>
+
 ### 작품 동기
 
 -   집에 부모가 없는 상황일 때, 아이가 양치질을 혼자 잘 하는지 걱정이 되는 부모를 위해 만든 장치이다. 집 화장실 칫솔 걸이가 있는 곳에 초음파센서를 자녀의 수 만큼 설치한다. 이 작품에서는 초음파센서와 LED를 각각 두 개를 사용하였다. 초음파센서를 활용하여 칫솔이 칫솔 걸이와 얼마만큼 떨어져 있는지를 측정하여 양치질하는 중인지, 안 하는 중인지 판단한다. 이 데이터를 토대로 양치질을 시작한 시간과 몇 분 동안 했는지에 대한 수행시간을 txt 파일에 기록한다. 또한, 각 초음파센서 옆에는 LED가 설치되어있어 칫솔 걸이에서 칫솔을 빼면 LED가 켜지게끔 하였다.데이터들을 원격 환경에서도 확인할 수 있도록 Python 프레임워크인 Flask와 Mosquitto MQTT broker를 사용했다. 이를 통해 웹 페이지에서 초음파센서별로 기록과 현재 상태를 확인할 수 있다.
+
+<br>
 
 ### 시스템 구조
 
@@ -41,9 +47,13 @@ last_modified_at: 2021-12-20
 
 ![](https://images.velog.io/images/dogakday/post/ef094308-4d6c-46e2-9692-5865f18b822f/image.png)
 
+<br>
+
 ### 디렉터리 구조
 
 ![](https://images.velog.io/images/dogakday/post/a825e5bf-83d8-4db9-a2c8-e7dcb785e3d6/image.png)
+
+<br>
 
 ### 구현 방법
 
@@ -61,6 +71,8 @@ echo2 = 16
     
 -   **회로의 모습**  
    ![](https://images.velog.io/images/dogakday/post/3aa24e14-41b5-4da3-875e-60ae00561ba3/image.png)
+
+<br>
 
 ### 소프트웨어
 
@@ -666,6 +678,8 @@ input { /* 처음으로 돌아가기 버튼 */
 
 ```
 
+<br>
+
 ### 실행 과정
 
 ```shell
@@ -678,6 +692,8 @@ python3 app.py
 -   실행 후 라즈베리파이 ip로 웹 브라우저에서 접속  
    ![](https://images.velog.io/images/dogakday/post/3e859666-6125-484d-82a6-f5381efd1ae9/image.png)
 - 이런 화면이 나온다.
+
+<br>
 
 #### LED모습
 
@@ -701,6 +717,8 @@ python3 app.py
 
 ![](https://images.velog.io/images/dogakday/post/8bc46436-9d9b-4e2e-9d93-dbe68f7da94e/image.png)
 
+<br>
+
 #### MQTT통신 모습
 
 -   초음파 센서 종류와(2개니까) 초음파센서와의 거리에 따라 다른 메세지가 나타난다  
@@ -708,14 +726,22 @@ python3 app.py
    ![](https://images.velog.io/images/dogakday/post/430b7fb2-0a44-47a7-bf3c-2fcc5436dac1/image.png)
    ![](https://images.velog.io/images/dogakday/post/14fc18e8-a773-41f2-9b78-0f7539241956/image.png)![](https://images.velog.io/images/dogakday/post/c9c16533-e85a-4fe3-b776-e435f726bc09/image.png)
 
+<br>
+
 #### 기록 불러오는 모습
 
 ![](https://images.velog.io/images/dogakday/post/dd556fa1-fbfb-47f0-9499-8aa60c8ee59c/image.png)
 
 ![](https://images.velog.io/images/dogakday/post/2e4fcb93-3a98-4403-93b4-9b1909c24935/image.png)
 
+<br>
+
 
 ## 끝내며
 포스트를 옮겨 적는 지금 보면 매우 유치해보이는 미니미니 프로젝트이지만 생각해보면 이때 정말 열심히 했던거같다. 라즈베리파이를 만져보는게 매우 재미있었고.. 웹 서버 라는것을 처음 써봤다. 이걸 계기로 한이음 프로젝트까지 라즈베리파이로 하게 되었고 이 덕분에 좀 더 수월하게 프로젝트를 하고 있는 것 같다. 뭐든 열심히하면 도움이 된다 :) 지금 하고있는 한이음 프로젝트도 성공적으로 끝내서 요악하는 포스트를 적는 날이 왔으면..!
 
+<br>
+
 [💙 Github 바로가기 💙](https://github.com/devyuseon/tooth-brushing-monitoring-system)
+
+<br>

@@ -6,7 +6,7 @@ excerpt: "내 로컬 서버에서는 반영이 되었지만 실제 Github Pages�
 categories:
   - Github Blog
 tags:
-  - [Github Blog]
+  - [Github Blog, Trouble Shooting]
 
 toc: true
 toc_sticky: true
@@ -23,7 +23,7 @@ last_modified_at: 2021-12-23
 
 며칠 공들여서 꾸며놨는데 이런 일로 포기 할 수는 없잖아요???!😡 구글링 해서 도움 되는건 다 해봐야지 ㅜㅜ
 
-그리고 이것저것 시도해서 드디어 해결했다.
+이것저것 시도 한 끝에 해결했다.
 
 <br>
 
@@ -50,6 +50,8 @@ last_modified_at: 2021-12-23
 나는 futrue: ture랑 publish시도하고 해결했다. 해당 변경사항 -> [6dba5ff](https://github.com/devyuseon/devyuseon.github.io/commit/6dba5ffbdf72f861fb471d03bb9d5bdc7029a2ac)
 
 똑같은 상황에서 이 포스팅을 발견하시는 모든분들에게 조금이라도 도움이 되길..🙏
+
+<br>
 
 # 참고자료
 
