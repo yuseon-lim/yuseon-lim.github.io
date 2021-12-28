@@ -11,8 +11,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-12-28
-last_modified_at: 2021-12-28
+date: 2021-12-29
+last_modified_at: 2021-12-29
 ---
 
 요즘 NoSQL을 사용하는 기업들이 많아지고 있다. Facebook, Twitter, Netflix, Instagram, Apple의 iCloud 등 많은 기업들이 NoSQL을 채택했다. 왜 NoSQL을 사용할까? 그럼에도 불구하고 SQL(관계형DB)는 여전히 주류 DB로 통용된다. 두 데이터베이스는 무엇이 다르고 어떤 경우에 무엇을 채택해야 할까?
