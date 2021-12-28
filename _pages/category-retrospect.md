@@ -1,7 +1,7 @@
 ---
 title: "회고"
 layout: archive
-permalink: categories/Retrospect
+permalink: categories/retrospect
 author_profile: true
 sidebar_main: true
 ---
