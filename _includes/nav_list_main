@@ -9,32 +9,17 @@
             ✨ <span>전체 글 수</style> <span>{{sum}}</style> <span>개</style>
       </li>
       <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Project/회고</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+        
                 {% for category in site.categories %}
                     {% if category[0] == "Project" %}
-                        <li><a href="/categories/project" class="">프로젝트({{category[1].size}})</a></li>
+                        <a href="/categories/project" class=""><span class="nav__sub-title">Project ({{category[1].size}})</span></a>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "Retrospect" %}
-                        <li><a href="/categories/retrospect" class="">회고({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
         <span class="nav__sub-title">BackEnd</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Spring" %}
-                        <li><a href="/categories/spring" class="">Spring({{category[1].size}})</a></li>
+                        <li><a href="/categories/spring" class="">Spring ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -42,7 +27,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Android" %}
-                        <li><a href="/categories/android" class="">Android({{category[1].size}})</a></li>
+                        <li><a href="/categories/android" class="">Android ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -51,14 +36,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BOJ" %}
-                        <li><a href="/categories/boj" class="">백준({{category[1].size}})</a></li>
+                        <li><a href="/categories/boj" class="">백준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -66,7 +51,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Github Blog" %}
-                        <li><a href="/categories/githubblog" class="">Github Blog({{category[1].size}})</a></li>
+                        <li><a href="/categories/githubblog" class="">Github Blog ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Retrospect" %}
+                        <li><a href="/categories/retrospect" class="">회고 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
