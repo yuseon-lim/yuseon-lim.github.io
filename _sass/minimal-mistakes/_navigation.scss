@@ -516,8 +516,8 @@
 
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    font-size: $type-size-4;
       font-weight: bold;
+      color: $link-color;
       text-decoration: none;
   }
 }
@@ -541,7 +541,6 @@
     line-height: 1.5;
 
     &:hover {
-      font-size: $type-size-4;
       font-weight: bold;
       text-decoration: none;
     }
