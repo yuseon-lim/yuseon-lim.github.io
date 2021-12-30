@@ -23,7 +23,6 @@ last_modified_at: 2021-12-23
 
 이렇게 하면 송금하기 링크가 복사된다.
 
-<br>
 
 # 블로그에 코드로 버튼 삽입하기
 
@@ -85,7 +84,6 @@ div#kakao-pay-link-btn {
 
 자세한 변경사항 및 소스코드는 [4ed07fd](https://github.com/devyuseon/devyuseon.github.io/commit/4ed07fd03db69413452a5b7912fe7a746799f6ce) 여기 참고해 주세요 :)
 
-<br>
 
 +) 금방 생각이 났다 ㅋㅋ
 
@@ -101,4 +99,3 @@ div#kakao-pay-link-btn {
 
 이에 대한 변경사항 및 소스코드는 [e95c663](https://github.com/devyuseon/devyuseon.github.io/commit/e95c663d4f3fae7ae0b4af48a5fdc8eb46ad5da0) 여기 있습니다~
 
-<br>

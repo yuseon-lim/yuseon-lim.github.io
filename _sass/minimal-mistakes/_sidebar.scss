@@ -72,7 +72,8 @@
 }
 
 .sidebar__right {
-  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: -1em;
 
   @include breakpoint($large) {
     position: absolute;
