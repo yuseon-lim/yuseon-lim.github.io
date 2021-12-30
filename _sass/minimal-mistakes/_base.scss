@@ -363,4 +363,9 @@ input[type="submit"],
 
 /* 내 custom setting */
 
-
+img + em {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
+}

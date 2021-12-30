@@ -120,6 +120,7 @@ path별로 클릭 리스너를 구현하려면 path에 `name`을 줘야 한다. 
 </vector>
 ```
 ![](https://images.velog.io/images/dogakday/post/bbd44541-9acc-4016-98f2-559f044b05a9/image.png){: .align-center}
+*해남, 진도지역에 색이 칠해졌다.*
 
 # 5. MainActivity.kt
 viewBinding을 사용하려면 build.gradle(:app)에 아래 내용을 추가하고 sync now한다.
