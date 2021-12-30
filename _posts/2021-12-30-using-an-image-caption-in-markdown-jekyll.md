@@ -59,6 +59,6 @@ img + em {
 
 <br>
 
-블로그에 적용한 변경 사항은 [25c08e9](https://github.com/devyuseon/devyuseon.github.io/commit/25c08e9969a3ab1bc1f9bbfd5dfe01318ae82797) 에서 확인 하실 수 있습니다.
+블로그에 적용한 변경 사항은 [25c08e9](https://github.com/devyuseon/devyuseon.github.io/commit/25c08e9969a3ab1bc1f9bbfd5dfe01318ae82797) 에서 확인 하실 수 있습니다!
 
 그럼 다들 즐거운 포스팅 하시길 바라며 이만 마치겠습니다🙇‍♀️💕
