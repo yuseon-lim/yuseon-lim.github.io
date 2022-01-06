@@ -1,6 +1,6 @@
 ---
 published: true
-title:  "[Spring] 스프링의 CGLIB 프록싱에 대해"
+title:  "[Spring] @Configuration 클래스의 CGLIB 프록싱에 대해"
 excerpt: ""
 
 categories:
