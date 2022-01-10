@@ -366,6 +366,20 @@ input[type="submit"],
 img + em {
   display: block;
   text-align: center;
-  font-size: .8rem;
+  font-size: .7rem;
   color: light-grey;
+}
+
+em {
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+details {
+  color: $link-color;
+}
+
+details:hover {
+  cursor: pointer;
+  color: $primary-color;
 }
