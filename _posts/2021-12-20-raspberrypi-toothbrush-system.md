@@ -1,5 +1,5 @@
 ---
-title:  "[Project] 라즈베리 파이를 이용한 충치 예방 장치 (RaspberryPi, Python, Flask, MQTT)"
+title:  "[Project] 라즈베리 파이를 이용한 간단한 프로젝트 (RaspberryPi, Python, Flask, MQTT)"
 excerpt: "2-2 모바일&스마트 시스템 시간 기말 프로젝트 결과물. 초음파 센서와 LED를 사용했고 웹 서버와의 통신은 Flask와 MQTT브로커를 이용했다."
 
 categories:
