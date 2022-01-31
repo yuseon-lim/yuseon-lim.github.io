@@ -24,7 +24,7 @@ title                    : "도각도각 Dev Day"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yuseon Lim"
-description              : "An amazing website."
+description              : "소소하게 기록하는 블로그 입니다🙇‍♀️"
 url                      : "https://devyuseon.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "devyuseon/devyuseon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
