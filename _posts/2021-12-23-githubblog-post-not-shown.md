@@ -40,7 +40,7 @@ last_modified_at: 2021-12-23
   
 📍 그리고 별짓 다해도 안되어서 스택오버플로우 뒤져서 시도해 본 것들..
 
-- [X] `_config.yml`에 `futrue: ture` 추가해본다.
+- [X] `_config.yml`에 `futrue: true` 추가해본다.
 - [X] 페이지 옵션(타이틀, 카테고리 적는곳)에 `published: true` 추가해본다.
 - [X] `index.html`에 공백이라도 추가해 변경사항 만들고 push (효과 봤다는 사람이 있다 ㅋㅋ)
 - [X] `jekyll build --verbose` 로 Skipping 된 것 있나 확인해보기
