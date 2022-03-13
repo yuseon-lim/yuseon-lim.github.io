@@ -66,6 +66,13 @@
         <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "About Dev" %}
+                        <li><a href="/categories/aboutdev" class="">About Dev ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Trouble Shooting" %}
                         <li><a href="/categories/troubleshooting" class="">Trouble Shooting ({{category[1].size}})</a></li>
                     {% endif %}
@@ -82,6 +89,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Retrospect" %}
                         <li><a href="/categories/retrospect" class="">회고 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Etc" %}
+                        <li><a href="/categories/etc" class=""> 잡동사니 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
