@@ -20,14 +20,14 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "변경테스트"
+title                    : "개발 일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Yuseon Lim"
-description              : "소소하게 기록하는 블로그 입니다🙇‍♀️"
-url                      : "https://devyuseon.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Seungyeon Jung"
+description              : "TIL 블로그입니다 :)"
+url                      : "https://devJSY.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "devyuseon/devyuseon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "devJSY/devJSY.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -108,15 +108,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuseon Lim"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "공부기록 블로그❤️"
+  name             : "Seungyeon Jung"
+  # avatar           : "/assets/images/profile.jpg"
+  bio              : "TIL 블로그"
   location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dogakdev@gmail.com"
+      url: "mailto:wjdtmd486@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -128,7 +128,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/devyuseon"
+      url: "https://github.com/devJSY"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -147,7 +147,7 @@ footer:
       url: "mailto:dogakdev@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/devyuseon"
+      url: "https://github.com/devJSY"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
