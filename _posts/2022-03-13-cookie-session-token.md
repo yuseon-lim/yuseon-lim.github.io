@@ -178,18 +178,6 @@ HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)
 - 토큰은 한번 발급되면 유효기간이 만료 될 때까지 사용 가능하기때문에 꼭 유효기간을 설정해 주어야 한다.
 - 특정 사용자의 접속을 강제로 만료하기 어렵다.
 
-# 🔖 토큰 기반 인증을 선택해야 할 경우
-
-- 다른 도메인이나 시스템에서 이용해야 할 때 (ex. `boring.com`에서 `github.com`에 인증 요청을 보낼 때)
-- web, IoT, 모바일 등의 다른 플랫폼들에서 API를 이용해야 할 때
-
-# 🔖 쿠키 기반 인증을 선택해야 할 경우
-
-- 사용자 프로필에 개인 설정이 필요한 경우. (ex. 테마와 같은 경우 데이터베이스의 쿠키 세션을 이용한다.)
-- 다른 사용자들을 위한 taget ads(광고)를 만들 때
-- 해당 웹사이트가 사용자의 기록과 행동을 추적해야 할 때 (ex. 쇼핑몰 사이트에서 최근 본 목록을 조회해야 할 때)
-- 로그인, 장바구니, 게임스코어와 관련된 세션은 추적과 데이터베이스 저장이 필요 할 수 있다. 쿠키가 없으면 사이트를 나갈때마다 로그인하거나 페이지가 닫힌 경우 쇼핑카트를 다시 작성해야한다.
-
 
 # 📃 참고자료
 - [https://velog.io/@duarufp06/HTTP-Stateless-Connectionless-HTTP-%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B0%9C%EB%85%90](https://velog.io/@duarufp06/HTTP-Stateless-Connectionless-HTTP-%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B0%9C%EB%85%90)
