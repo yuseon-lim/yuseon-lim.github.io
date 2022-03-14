@@ -1,5 +1,5 @@
 ---  
-title: "About Yuseon's DevBlog"
+title: "About Seungyeon's DevBlog"
 permalink: /about/
 layout: single
 header:
