@@ -20,11 +20,11 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "도각도각 Dev Day"
+title                    : "개발 일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Yuseon Lim"
-description              : "소소하게 기록하는 블로그 입니다🙇‍♀️"
+name                     : "Seungyeon Jung"
+description              : "TIL 블로그입니다 :)♀️"
 url                      : "https://devyuseon.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "devyuseon/devyuseon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,9 +108,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuseon Lim"
+  name             : "Seungyeon Jung"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "공부기록 블로그❤️"
+  bio              : "TIL 블로그"
   location         : "Somewhere"
   email            :
   links:
