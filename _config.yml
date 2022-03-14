@@ -20,7 +20,7 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "도각도각 Dev Day"
+title                    : "변경테스트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yuseon Lim"
