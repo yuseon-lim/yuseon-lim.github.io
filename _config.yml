@@ -20,11 +20,11 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "개발 일지"
+title                    : "Dev blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seungyeon Jung"
-description              : "TIL 블로그입니다 :)"
+description              : "개발 블로그입니다 :)"
 url                      : "https://devJSY.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "devJSY/devJSY.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -110,7 +110,7 @@ analytics:
 author:
   name             : "Seungyeon Jung"
   # avatar           : "/assets/images/profile.jpg"
-  bio              : "TIL 블로그"
+  bio              : "Dev blog"
   location         : "Somewhere"
   email            :
   links:
