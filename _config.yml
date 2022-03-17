@@ -20,7 +20,7 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Dev blog"
+title                    : "Development Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seungyeon Jung"
@@ -110,7 +110,7 @@ analytics:
 author:
   name             : "Seungyeon Jung"
   # avatar           : "/assets/images/profile.jpg"
-  bio              : "Dev blog"
+  bio              : "Development Blog"
   location         : "Somewhere"
   email            :
   links:
