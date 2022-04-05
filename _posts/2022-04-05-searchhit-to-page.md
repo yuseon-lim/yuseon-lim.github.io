@@ -1,6 +1,7 @@
 ---
 published: true
 title:  "[Spring/Elasticsearch] SearchHits to Page"
+excerpt: "엘라스틱서치 쿼리 결과에서 페이징을 포함해 컨텐트만 뽑아내는 방법"
 
 categories:
   - Spring

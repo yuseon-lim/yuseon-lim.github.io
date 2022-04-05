@@ -1,6 +1,7 @@
 ---
 published: true
 title:  "[Spring] 좋아요 기능 구현"
+excerpt: "Spring + JPA + Spring Data Elastic으로 좋아요 기능을 구현해 보았다."
 
 categories:
   - Spring
