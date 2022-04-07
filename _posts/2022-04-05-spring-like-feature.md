@@ -293,15 +293,13 @@ public class HeartControllerTest {
     private MockMvc mockMvc;
     @Autowired
     private CampaignRepository campaignRepository;
-    @Autowired
-    private HeartRepository heartRepository;
 
     ObjectMapper objectMapper = new ObjectMapper();
     Map<String, String> input = new HashMap<>();
 
     @BeforeEach
     void setBody() {
-        Optional<Campaign> campaign = campaignRepository.findAll().stream().findFirst();
+        Optional<Campaign> campaign = campaignRepository.findDistinctBySiteType("happybean");
         if (campaign.isEmpty()) {
             throw new ResourceNotFoundException("캠페인을 찾을 수 없음");
         }
@@ -320,15 +318,22 @@ public class HeartControllerTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(input)))
 
-                .andExpect(status().isCreated())
+                .andExpect(status().isCreated());
+    }
 
-                .andDo(document("doHeart-success",
-                        getDocumentRequest(),
-                        getDocumentResponse(),
-                        requestFields(
-                                fieldWithPath("campaignId").description("좋아요 할 캠페인 ID"),
-                                fieldWithPath("userId").description("좋아요 누르는 유저 ID")
-                        )));
+    @Test
+    @Order(101)
+    @DisplayName("좋아요 테스트 - 실패 :: 이미 좋아요 된 캠페인")
+    public void doHeartFailDuplicate() throws Exception {
+
+        mockMvc
+                .perform(post("/api/heart")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(input)))
+
+                .andExpect(status().isConflict())
+                .andExpect(jsonPath("$.code").value("ALREADY_HEARTED"))
+                .andExpect(jsonPath("$.message").value("이미 좋아요 된 캠페인 입니다."));
     }
 
     @Test
@@ -341,22 +346,29 @@ public class HeartControllerTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(input)))
 
-                .andExpect(status().isOk())
+                .andExpect(status().isOk());
 
-                .andDo(document("unHeart-success",
-                        getDocumentRequest(),
-                        getDocumentResponse(),
-                        requestFields(
-                                fieldWithPath("campaignId").description("좋아요 취소 할 캠페인 ID"),
-                                fieldWithPath("userId").description("좋아요 취소 누르는 유저 ID")
-                        )));
+    }
+
+    @Test
+    @Order(201)
+    @DisplayName("좋아요 취소 테스트 - 실패 :: 없는 좋아요 취소 시도")
+    public void unHeartFailNotFound() throws Exception {
+
+        mockMvc
+                .perform(delete("/api/heart")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(input)))
+
+                .andExpect(status().isNotFound())
+                .andExpect(jsonPath("$.code").value("HEART_NOT_FOUND"))
+                .andExpect(jsonPath("$.message").value("해당 좋아요 정보를 찾을 수 없습니다."));
+
 
     }
 
 }
 ```
-
-- spring rest docs를 이용해 api 문서 자동화를 하고 있습니다. document~ 코드는 문서화 관련 코드입니다.
   
 ![image](https://user-images.githubusercontent.com/67352902/161777578-d23e2cac-18b2-4e47-8c46-c193de489a61.png){: .align-center}
 *테스트 성공*
