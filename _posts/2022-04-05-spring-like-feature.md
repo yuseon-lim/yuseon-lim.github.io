@@ -23,7 +23,7 @@ last_modified_at: 2022-04-05 22:25:38
 > - Elasticsearch 7.15.2
 
 > **❗주의** : 이 게시글은 JPA + Spring Data Elastic 조합으로 User와 Heart정보는 MySQL에, 
-> 흔히 게시글로 구현하는 'Campagin'은 Elasticsearch에 있기 때문에 해당 Campagin(게시글) 테이블에 하트를 +1, -1 하는 로직은 없습니다. 대신 다른 방법을 소개합니다.
+> 흔히 게시글로 구현하는 'Campagin'은 Elasticsearch에 있기 때문에 좋아요 수를 기록하시려면 게시글 테이블에 칼럼을 추가하셔야 합니다!
 
 # 📌 시나리오
 
@@ -191,35 +191,56 @@ public class HeartService {
 
     private final HeartRepository heartRepository;
     private final UserRepository userRepository;
+    private final CampaignRepository campaignRepository;
+    private final RestHighLevelClient elasticsearchClient;
+    private final JwtTokenProvider jwtTokenProvider;
+    private User user;
 
-    public void heart(HeartDto heartDto) {
+    public void heart(HeartDto heartDto, String jwtToken) throws IOException {
+        validateToken(heartDto, jwtToken);
 
         // 이미 좋아요 된 캠페인일 경우 409 에러
-        if (findHeartWithUserAndCampaignId(heartDto).isPresent())
+        if (findHeartWithUserAndCampaignId(heartDto).isPresent()) {
             throw new CustomException(ALREADY_HEARTED);
+        }
 
         Heart heart = Heart.builder()
                 .campaignId(heartDto.getCampaignId())
                 .user(userRepository.findUserById(heartDto.getUserId()).get())
                 .build();
         heartRepository.save(heart);
+
+        updateHeartCount(heartDto.getCampaignId(), 1);
+
     }
 
-    public void unHeart(HeartDto heartDto) {
+    public void unHeart(HeartDto heartDto, String jwtToken) throws IOException {
+        validateToken(heartDto, jwtToken);
+
         Optional<Heart> heartOpt = findHeartWithUserAndCampaignId(heartDto);
 
-        if (heartOpt.isEmpty())
+        if (heartOpt.isEmpty()) {
             throw new CustomException(HEART_NOT_FOUND);
+        }
 
         heartRepository.delete(heartOpt.get());
+
+        updateHeartCount(heartDto.getCampaignId(), -1);
+    }
+
+    public void validateToken(HeartDto heartDto, String jwtToken) {
+        // 생략 ... 유효한 토큰인지 검증하는 부분
     }
 
     public Optional<Heart> findHeartWithUserAndCampaignId(HeartDto heartDto) {
-        Optional<User> userOpt = userRepository.findUserById(heartDto.getUserId());
-        if (userOpt.isEmpty())
-            throw new CustomException(MEMBER_NOT_FOUND);
+        return heartRepository
+                .findHeartByUserAndCampaignId(user, heartDto.getCampaignId());
+    }
 
-        return heartRepository.findHeartByUserAndCampaignId(userOpt.get(), heartDto.getCampaignId());
+    public void updateHeartCount(String campaignId, Integer plusOrMinus) throws IOException {
+        // Elasticsearch 업데이트 하는 부분
+        // 필요한 분들이 별로 없을것같아 생략합니다. 필요하시면 맨아래 깃헙 링크 참고하세요!
+        // MySQL만으로 구현하실때에는 JPA로 업데이트 하는 코드 넣어주세요~!
     }
 
 }
@@ -232,50 +253,6 @@ public class HeartService {
 - `unHeart()`는 DB에서 Heart객체를 찾아 삭제합니다.
   - Heart가 없다면 없는 좋아요를 취소하는 것이기 때문에 HEART_NOT_FOUND 에러
 
-# 📌 좋아요 여부와 좋아요 개수
-
-앞에서 설명했듯이, Campagin(흔히 게시글) 정보는 MySQL에 없고 외부인 Elasticsearch에 있습니다. es에 직접 하트를 카운팅 하는것은 비효율적이라 생각이 들어, 이렇게 따로 구하는 로직을 추가했습니다.
-
-CampaginService의 일부 입니다.
-
-## 📍 좋아요 여부 :: isHeart
-
-```java
-List<Heart> hearts = user.get().getHearts();
-Page<Campaign> campaigns = campaignDto.getCampaigns();
-
-for (Heart heart : hearts) {
-    String campaignId = heart.getCampaignId();
-    Optional<Campaign> campaignOpt = campaigns
-            .stream().filter(campaign -> Objects.equals(campaign.getId(), campaignId))
-            .findFirst();
-    campaignOpt.ifPresent(campaign -> campaign.setIsHeart(true));
-}
-```
-- **로그인을 했을 경우** 에만 좋아요 여부를 체크합니다.
-- 해당 유저의 모든 하트 리스트를 가져오고, 앞에서 여러 쿼리들로 처리하여 가져온 Campagin 리스트를 가져옵니다.
-- 자바8의 stream()을 이용해 Heart의 campaginID와 일치하는 Campagin 객체를 찾아 `isHeart`를 true로 표시합니다.
-
-## 📍 좋아요 개수 :: heartCount
-
-```java
-List<Heart> hearts = heartRepository.findAll();
-
-Map<String, List<Heart>> heartMap = hearts.stream()
-        .collect(Collectors.groupingBy(Heart::getCampaignId));
-
-heartMap.keySet().forEach(campaignId -> {
-    int count = heartMap.get(campaignId).size(); // 해당 캠페인 좋아요 수
-    Optional<Campaign> campaignOpt = campaignDto.getCampaigns().stream()
-            .filter(v -> Objects.equals(v.getId(), campaignId))
-            .findFirst();
-    campaignOpt.ifPresent(campaign -> campaign.setHeartCount(count));
-});
-```
-- 좋아요 개수는 로그인 여부와 상관없이 항상 세팅합니다.
-- `Collectors.groupBy()` 로 campaignId 기준으로 하트 리스트들을 그룹핑(Map으로) 합니다.
-- 그렇게되면 해당 campaign이 몇개의 하트가 있는지 알 수 있게됩니다.
-- 아까 만들었던 Map의 key(campaginId들)의 for문을 돌며 갯수를 세팅합니다.
 
 # 🩺 테스트
 
@@ -377,6 +354,10 @@ public class HeartControllerTest {
 
 ![image](https://user-images.githubusercontent.com/67352902/161777816-238a4e91-46c9-46bf-b5d3-756a3b7a7c59.png){: .align-center}
 *좋아요 한 heart들이 잘 들어가있다.*
+
+# [🔗 GITHUB LINK](https://github.com/2E2I/mamomo-server/blob/main/src/main/java/com/hsu/mamomo/service/HeartService.java)
+
+원본 코드 입니다.
 
 # 참고자료
 
