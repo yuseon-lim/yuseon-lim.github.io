@@ -4,9 +4,9 @@
 
 @charset "utf-8";
 
-@import "custom/customImport.scss";
+// @import "custom/customImport.scss";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import "custom/customOverride.scss";
+// @import "custom/customOverride.scss";
