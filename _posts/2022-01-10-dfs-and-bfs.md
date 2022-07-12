@@ -45,21 +45,25 @@ last_modified_at: 2022-01-11
 ```text
        1
     /  |  \
-   2   3   4
-   |   |
-   5   |
-  / \ /
- 6   7
+   2   5   9
+   |   /\  |
+   3  6  8 10
+  /   |
+ 4    7
 ```
 이런 그래프가 있으면 재귀 호출은
 ```text
 dfs(1)
     dfs(2)
         dfs(5)
-            dfs(6)
-    dfs(3)
+            dfs(3)
+                dfs(4)
+    dfs(5)
+        dfs(6)
             dfs(7)
-    dfs(4)
+        dfs(8)
+    dfs(9)
+        dfs(10)
 ```
 이렇게 된다.
 
@@ -68,21 +72,24 @@ dfs(1)
 """
        1
     /  |  \
-   2   3   4
-   |   |
-   5   |
-  / \ /
- 6   7
+   2   5   9
+   |   /\  |
+   3  6  8 10
+  /   |
+ 4    7
 """
 
 graph = {
-    1: [2,3,4],
-    2: [5],
-    3: [5],
+    1: [2,5,9],
+    2: [3],
+    3: [4],
     4: [],
-    5: [6,7],
-    6: [],
-    7: [3],
+    5: [6,8],
+    6: [7],
+    7: [],
+    8: [],
+    9: [10],
+    10: []
 }
 
 def recursive_dfs(v, visited = []):
@@ -108,6 +115,10 @@ print("iterative_dfs: ", iterative_dfs(1))
 
 # 스택은 마지막에 스택에 담은 정점부터 꺼내져 방문되기 때문에
 # 재귀 방식과 결과가 다름.
+"""
+recursive_dfs:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+iterative_dfs:  [1, 9, 10, 5, 8, 6, 7, 2, 3, 4]
+"""
 ```
 
 # 📍 BFS , 너비 우선 탐색
@@ -136,20 +147,23 @@ print("iterative_dfs: ", iterative_dfs(1))
        1
     /  |  \
    2   3   4
-   |   |
-   5   |
-  / \ /
- 6   7
+   |   /\  |
+   5  6  7 8
+  /   |
+ 9    10
 """
 
 graph = {
     1: [2,3,4],
     2: [5],
-    3: [5],
-    4: [],
-    5: [6,7],
-    6: [],
-    7: [3],
+    3: [6,7],
+    4: [8],
+    5: [9],
+    6: [10],
+    7: [],
+    8: [],
+    9: [],
+    10: []
 }
 
 def bfs(start_v):
@@ -166,14 +180,12 @@ def bfs(start_v):
 print("bfs: ", bfs(1))
 
 """
-bfs:  [1, 2, 3, 4, 5, 6, 7]
+bfs:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 """
 ```
 리스트를 이용했는데, 사실 `pop(0)`은 시간복잡도가 O(n)으로, 좋지 않다. 리스트보다는 **Deque**을 사용하는것이 좋다.<br>
 
-<details>
-<summary>Deque를 사용한 소스코드(클릭)</summary>
-<div markdown="1">
+## 👍 Deque를 사용한 소스코드
 ```python
 from collections import deque
 
@@ -189,11 +201,8 @@ def bfs(start_v):
                 deq.append(w)
     return visited
 ```
-</div>
-</details>
 
 # 🌈 추천하는 설명 영상
-이 분이 설명해주시는 알고리즘은 이해 못할 자신이 없다. 강추한다.
 <iframe width="894" height="512" src="https://www.youtube.com/embed/_hxFgg7TLZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
