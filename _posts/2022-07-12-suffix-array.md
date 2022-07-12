@@ -110,8 +110,6 @@ LCP 없이 부분 문자열을 구해보겠다.
 
 # 📌 LCP (Longest Common Prefix)
 
-이 개념은 [KMP 알고리즘](https://devyuseon.github.io/algorithm/kmp-algorithm/#pattern-%EC%A0%84%EC%B2%98%EB%A6%AC---lps) 에서도 다룬 적 있다. 다만 여기선 이 LCP의 개념이 조금 다르다.
-
 정렬된 접미사 배열에서 LCP는, **인접한 접미사와 몇 칸까지 겹치는지**를 의미한다.
 
 위에서 밑줄친 부분이 겹치는 부분, 즉 **가장 긴 공통 접두사**이다.
