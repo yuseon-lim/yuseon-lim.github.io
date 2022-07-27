@@ -4,7 +4,7 @@ title:  "[프로그래머스] 2021 카카오 채용연계형 인턴십 - 숫자 
 excerpt: ""
 
 categories:
-  - Programmers
+  - PS
 tags:
   - [Programmers, Python]
 
