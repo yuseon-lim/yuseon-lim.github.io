@@ -11,8 +11,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 
-last_modified_at: 
+date: 2023-01-20 21:11:49
+last_modified_at: 2023-01-20 21:11:53
 ---
 # 🔎 문제
 - [🔗 프로그래머스 행렬과 연산](https://school.programmers.co.kr/learn/courses/30/lessons/118670)
