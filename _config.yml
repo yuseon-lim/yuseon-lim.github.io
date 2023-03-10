@@ -111,7 +111,7 @@ author:
   name             : "Yuseon Lim"
   avatar           : "/assets/images/profile.jpg"
   bio              : "공부기록 블로그❤️"
-  location         : "Somewhere"
+  #location         : "Somewhere"
   email            :
   links:
     - label: "Email"
