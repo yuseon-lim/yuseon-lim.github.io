@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://devyuseon.github.io/sitemap.xml
