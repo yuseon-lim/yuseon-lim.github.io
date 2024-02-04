@@ -21,6 +21,10 @@ const config = {
     locales: ["ko"],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       "classic",
@@ -33,6 +37,10 @@ const config = {
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        gtag: {
+          trackingID: "G-47JM0E64J5",
+          anonymizeIP: true,
         },
       }),
     ],
@@ -72,9 +80,8 @@ const config = {
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
-      gtag: {
-        trackingID: "G-47JM0E64J5",
-        anonymizeIP: true,
+      sitemap: {
+        changefreq: "daily",
       },
       prism: {
         theme: prismThemes.github,
