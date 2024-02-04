@@ -72,6 +72,10 @@ const config = {
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+      gtag: {
+        trackingID: "G-47JM0E64J5",
+        anonymizeIP: true,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
