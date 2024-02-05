@@ -17,8 +17,8 @@ const config = {
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
-    defaultLocale: "ko",
-    locales: ["ko"],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   markdown: {
@@ -86,6 +86,21 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: [
+          "java",
+          "python",
+          "javascript",
+          "css",
+          "docker",
+          "git",
+          "gradle",
+          "http",
+          "json",
+          "mermaid",
+          "nginx",
+          "yaml",
+          "bash",
+        ],
       },
     }),
 };
