@@ -1,5 +1,5 @@
 ---
-title: "[TroubleShooting] express가 응답을 보내지 않았다. 에러 없이."
+title: "[TroubleShooting] express가 응답을 보내지 않았다. 왜..?"
 description: 에러가 발생하지 않았는데, 클라이언트는 서버의 응답을 받지 못했다. 이유를 찾아보자 !
 authors: yuseonLim
 tags:
