@@ -33,7 +33,9 @@ const config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          routeBasePath: "/",
+          routeBasePath: "blog",
+          tagsBasePath: "tags",
+          archiveBasePath: "archive",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -64,9 +66,9 @@ const config = {
           //   position: "left",
           //   label: "Tutorial",
           // },
-          //{ to: "/blog", label: "Blog", position: "left" },
-          { to: "/tags", label: "Tags", position: "left" },
-          { to: "/archive", label: "Archive", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog/tags", label: "Tags", position: "left" },
+          { to: "/blog/archive", label: "Archive", position: "left" },
 
           // {
           //   href: "https://github.com/facebook/docusaurus",
@@ -84,8 +86,8 @@ const config = {
         changefreq: "daily",
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.oneLight,
+        darkTheme: prismThemes.oneDark,
         additionalLanguages: [
           "java",
           "python",

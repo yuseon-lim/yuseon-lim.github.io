@@ -14,7 +14,9 @@ hide_table_of_contents: false
 
 머지 되었을때는 정말 뿌듯했고 이슈를 생성하고 PR을 날리는 과정도 재밌었다.
 
-# 문제 발견, 이슈 생성
+<!-- truncate -->
+
+## 문제 발견, 이슈 생성
 
 ![](../static/img/post-img/20240205204509.png)
 
@@ -26,7 +28,7 @@ hide_table_of_contents: false
 
 assgin 해주셨고, 문서 위치가 바뀌었으니 compose-spec 레포지토리에서 PR을 해달라는 친절한 가이드까지 주셨다.
 
-# Pull Request 생성하기
+## Pull Request 생성하기
 
 먼저 compose-spec을 fork하고, 소스코드 수정 후 commit 했다.
 

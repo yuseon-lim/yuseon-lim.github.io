@@ -21,6 +21,8 @@ hide_table_of_contents: false
 
 그러니까, 실패했다는 메세지가 떴는데 실제론 성공했다는 거다.
 
+<!-- truncate -->
+
 ## 증상 파악
 
 ![](../static/img/post-img/diagram1.png)

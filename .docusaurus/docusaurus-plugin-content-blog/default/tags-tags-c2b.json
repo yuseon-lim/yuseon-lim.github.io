@@ -1,7 +1,32 @@
 [
   {
-    "label": "hello",
-    "permalink": "/tags/hello",
+    "label": "troubleshooting",
+    "permalink": "/tags/troubleshooting",
+    "count": 1
+  },
+  {
+    "label": "express",
+    "permalink": "/tags/express",
+    "count": 1
+  },
+  {
+    "label": "nginx",
+    "permalink": "/tags/nginx",
+    "count": 1
+  },
+  {
+    "label": "docker",
+    "permalink": "/tags/docker",
+    "count": 1
+  },
+  {
+    "label": "opensource-contributions",
+    "permalink": "/tags/opensource-contributions",
+    "count": 1
+  },
+  {
+    "label": "java",
+    "permalink": "/tags/java",
     "count": 1
   }
 ]

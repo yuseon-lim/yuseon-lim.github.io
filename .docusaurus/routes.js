@@ -38,8 +38,63 @@ export default [
     exact: true
   },
   {
-    path: '/archive',
-    component: ComponentCreator('/archive', '623'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'cf5'),
+    exact: true
+  },
+  {
+    path: '/blog/2024/01/02/java-no-stacktrace',
+    component: ComponentCreator('/blog/2024/01/02/java-no-stacktrace', 'a65'),
+    exact: true
+  },
+  {
+    path: '/blog/2024/01/29/first-opensearch-contribute-docker-compose',
+    component: ComponentCreator('/blog/2024/01/29/first-opensearch-contribute-docker-compose', '608'),
+    exact: true
+  },
+  {
+    path: '/blog/2024/02/04/troubleshooting-express-no-response',
+    component: ComponentCreator('/blog/2024/02/04/troubleshooting-express-no-response', 'cda'),
+    exact: true
+  },
+  {
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '0ae'),
+    exact: true
+  },
+  {
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '679'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/docker',
+    component: ComponentCreator('/blog/tags/docker', '80b'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/express',
+    component: ComponentCreator('/blog/tags/express', '73e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/java',
+    component: ComponentCreator('/blog/tags/java', '0fb'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/nginx',
+    component: ComponentCreator('/blog/tags/nginx', '3ab'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/opensource-contributions',
+    component: ComponentCreator('/blog/tags/opensource-contributions', '309'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/troubleshooting',
+    component: ComponentCreator('/blog/tags/troubleshooting', '6fa'),
     exact: true
   },
   {
@@ -48,23 +103,8 @@ export default [
     exact: true
   },
   {
-    path: '/migration-to-docusaurus',
-    component: ComponentCreator('/migration-to-docusaurus', '0ac'),
-    exact: true
-  },
-  {
-    path: '/tags',
-    component: ComponentCreator('/tags', '0a8'),
-    exact: true
-  },
-  {
-    path: '/tags/hello',
-    component: ComponentCreator('/tags/hello', '6dd'),
-    exact: true
-  },
-  {
     path: '/',
-    component: ComponentCreator('/', '3d3'),
+    component: ComponentCreator('/', '531'),
     exact: true
   },
   {
