@@ -2,6 +2,11 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "2023 회고",
+      "permalink": "/blog/2024/02/13/2023-retrospect",
+      "unlisted": false
+    },
+    {
       "title": "[TroubleShooting] express가 응답을 보내지 않았다. 왜..?",
       "permalink": "/blog/2024/02/04/troubleshooting-express-no-response",
       "unlisted": false

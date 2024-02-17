@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'cf5'),
+    component: ComponentCreator('/blog', '7dc'),
     exact: true
   },
   {
@@ -55,6 +55,11 @@ export default [
   {
     path: '/blog/2024/02/04/troubleshooting-express-no-response',
     component: ComponentCreator('/blog/2024/02/04/troubleshooting-express-no-response', 'cda'),
+    exact: true
+  },
+  {
+    path: '/blog/2024/02/13/2023-retrospect',
+    component: ComponentCreator('/blog/2024/02/13/2023-retrospect', '7dd'),
     exact: true
   },
   {
@@ -90,6 +95,11 @@ export default [
   {
     path: '/blog/tags/opensource-contributions',
     component: ComponentCreator('/blog/tags/opensource-contributions', '309'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/retrospect',
+    component: ComponentCreator('/blog/tags/retrospect', '4a6'),
     exact: true
   },
   {

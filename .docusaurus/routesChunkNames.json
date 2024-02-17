@@ -42,21 +42,24 @@
       "plugin": "plugin---docusaurus-debug-531-987"
     }
   },
-  "/blog-cf5": {
+  "/blog-7dc": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-expressc-44-e82"
+        "content": "content---blog-8-cf-303"
       },
       {
-        "content": "content---tags-dockerc-4-a-c17"
+        "content": "content---blogc-44-4d6"
       },
       {
-        "content": "content---tags-java-447-038"
+        "content": "content---blogc-4-a-c58"
+      },
+      {
+        "content": "content---blog-447-0f2"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -64,51 +67,59 @@
   "/blog/2024/01/02/java-no-stacktrace-a65": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
-    "content": "content---2024-01-02-java-no-stacktraceee-8-5a3"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-01-02-java-no-stacktraceee-8-029"
   },
   "/blog/2024/01/29/first-opensearch-contribute-docker-compose-608": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
-    "content": "content---2024-01-29-first-opensearch-contribute-docker-composea-66-2d4"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-01-29-first-opensearch-contribute-docker-composea-66-9ce"
   },
   "/blog/2024/02/04/troubleshooting-express-no-response-cda": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
-    "content": "content---2024-02-04-troubleshooting-express-no-responsee-3-f-3ef"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-02-04-troubleshooting-express-no-responsee-3-f-782"
+  },
+  "/blog/2024/02/13/2023-retrospect-7dd": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-243-913"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-02-13-2023-retrospectd-87-48f"
   },
   "/blog/archive-0ae": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
   "/blog/tags-679": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
   "/blog/tags/docker-80b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-dockerc-4-a-c17"
+        "content": "content---blogc-4-a-c58"
       }
     ],
     "tag": "tag---blog-tags-docker-859-ae4",
@@ -117,12 +128,12 @@
   "/blog/tags/express-73e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-expressc-44-e82"
+        "content": "content---blogc-44-4d6"
       }
     ],
     "tag": "tag---blog-tags-expressbc-5-8d7",
@@ -131,12 +142,12 @@
   "/blog/tags/java-0fb": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-java-447-038"
+        "content": "content---blog-447-0f2"
       }
     ],
     "tag": "tag---blog-tags-javaa-4-a-9bc",
@@ -145,12 +156,12 @@
   "/blog/tags/nginx-3ab": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-expressc-44-e82"
+        "content": "content---blogc-44-4d6"
       }
     ],
     "tag": "tag---blog-tags-nginxfc-7-3f8",
@@ -159,26 +170,40 @@
   "/blog/tags/opensource-contributions-309": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-dockerc-4-a-c17"
+        "content": "content---blogc-4-a-c58"
       }
     ],
     "tag": "tag---blog-tags-opensource-contributionsb-36-5c9",
     "listMetadata": "listMetadata---blog-tags-opensource-contributions-684-d72"
   },
+  "/blog/tags/retrospect-4a6": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-243-913"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-cf-303"
+      }
+    ],
+    "tag": "tag---blog-tags-retrospect-075-2de",
+    "listMetadata": "listMetadata---blog-tags-retrospect-5-c-2-56d"
+  },
   "/blog/tags/troubleshooting-6fa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---2024-01-02-java-no-stacktrace-243-ea1"
+      "plugin": "plugin---blog-243-913"
     },
-    "sidebar": "sidebar---2024-01-02-java-no-stacktrace-814-565",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---tags-expressc-44-e82"
+        "content": "content---blogc-44-4d6"
       }
     ],
     "tag": "tag---blog-tags-troubleshootingd-00-4ca",
