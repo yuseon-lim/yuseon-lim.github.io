@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '7dc'),
+    component: ComponentCreator('/blog', 'f98'),
     exact: true
   },
   {
@@ -63,6 +63,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/2024/03/11/design-access-control-strategy',
+    component: ComponentCreator('/blog/2024/03/11/design-access-control-strategy', 'f13'),
+    exact: true
+  },
+  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', '0ae'),
     exact: true
@@ -70,6 +75,11 @@ export default [
   {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '679'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/design',
+    component: ComponentCreator('/blog/tags/design', '1fe'),
     exact: true
   },
   {

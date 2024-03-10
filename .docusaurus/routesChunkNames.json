@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debug-531-987"
     }
   },
-  "/blog-7dc": {
+  "/blog-f98": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-243-913"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-5-bf-cb4"
+      },
       {
         "content": "content---blog-8-cf-303"
       },
@@ -96,6 +99,14 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2024-02-13-2023-retrospectd-87-48f"
   },
+  "/blog/2024/03/11/design-access-control-strategy-f13": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-243-913"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-03-11-design-access-control-strategy-783-fa5"
+  },
   "/blog/archive-0ae": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
@@ -110,6 +121,20 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/design-1fe": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-243-913"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-5-bf-cb4"
+      }
+    ],
+    "tag": "tag---blog-tags-designfdb-49c",
+    "listMetadata": "listMetadata---blog-tags-design-9-a-9-4a5"
   },
   "/blog/tags/docker-80b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

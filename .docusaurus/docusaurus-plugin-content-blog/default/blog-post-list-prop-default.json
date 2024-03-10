@@ -2,6 +2,11 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "통합 접근 제어 전략을 설계 해보다.",
+      "permalink": "/blog/2024/03/11/design-access-control-strategy",
+      "unlisted": false
+    },
+    {
       "title": "2023 회고",
       "permalink": "/blog/2024/02/13/2023-retrospect",
       "unlisted": false
