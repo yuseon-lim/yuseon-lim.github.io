@@ -17,6 +17,7 @@
 <p>회사에서 내가 맡은 서비스의 <strong>권한 관리</strong>는 여러 곳에 흩어져 하드코딩 되어 있다. 여기서 권한 관리란 어떤 리소스에 대한 접근 권한을 말한다.</p>
 <p>이때 고려되는 요소도 다양하다. 그런데 이번에 새 기능이 추가되어 더욱 더 복잡하게 관리해야 할 상황이 생겼다. REST API도 제공하게 되었다. 이에 권한 관리를 한곳에서 통합해야 할 필요가 생겼고, 이 임무가 나에게(!!) 맡겨졌다.</p>
 <p>그래서 설계를 해보며 고려한 요소들과, 이 과정에서 느낀점을 정리해 보려고 한다.</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>조금이라도 민감할 수 있는 회사 내용을 모두 제외하였기 때문에, <strong>앙꼬없는 찐빵</strong>같은 글일 수 있습니다.</p><p><code>ROLE_</code> 형식의 권한 설계가 아닌, 다른 설계를 계획할 때 조금이라도 인사이트가 된다면 좋겠습니다. ☺️</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="고려해야-할-요소">고려해야 할 요소<a href="https://devyuseon.github.io/blog/2024/03/11/design-access-control-strategy#%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%95%BC-%ED%95%A0-%EC%9A%94%EC%86%8C" class="hash-link" aria-label="Direct link to 고려해야 할 요소" title="Direct link to 고려해야 할 요소">​</a></h2>
 <p>사내 서비스는 망 분리가 되어 있다. 그래서 사내직원 / 외부유저가 로그인 방식이 다르고, 접근하는 도메인도 다르다. 사내직원일 경우 부서별로 어떤 리소스에 대한 접근 권한이 다르다. 특정 부서가 생성한 것은 그 부서만 수정할 수 있다던가 하는 처리가 필요하다. 외부유저일 경우 같은 회사만 열람할 수 있었다. 이걸 모두 하드코딩 하고 있었다. (if ~ else로.)</p>
 <p>또, 일반적인 웹 백엔드 API 말고도 REST API 로의 접근도 제공하게 되었다. 이때 Token을 발급받은 유저만 해당 API 를 사용할 수 있다.</p>
@@ -101,7 +102,7 @@
 <p>와 같이 말이다.</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="장점-2">장점<a href="https://devyuseon.github.io/blog/2024/03/11/design-access-control-strategy#%EC%9E%A5%EC%A0%90-2" class="hash-link" aria-label="Direct link to 장점" title="Direct link to 장점">​</a></h4>
 <p>얼핏보면 ABAC와 비슷하다고 생각할 수 있는데, 일단 리소스의 타입별로 나누어 성능엔 조금 더 이점이 있을 수 있다. 그리고 user, group, access와 같이 prefix를 정의하고 설정해 유저의 타입을 구분한다. 한눈에 어떤 유저인지, 어떤 타입의 리소스인지 파악이 가능하다. 나중에 설정을 수정하는 어드민 페이지를 개발한다고 해도 이 편이 더 관리하기 쉬울 것이라 생각했다.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="단점-2">단점<a href="https://devyuseon.github.io/blog/2024/03/11/design-access-control-strategy#%EB%8B%A8%EC%A0%90-2" class="hash-link" aria-label="Direct link to 단점" title="Direct link to 단�점">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="단점-2">단점<a href="https://devyuseon.github.io/blog/2024/03/11/design-access-control-strategy#%EB%8B%A8%EC%A0%90-2" class="hash-link" aria-label="Direct link to 단점" title="Direct link to 단점">​</a></h4>
 <p>이 경우에도 조직개편시 마이그레이션을 하려면 모든 정책을 한번 다 훑어야 한다.</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="우리-서비스에는--2">우리 서비스에는 ...<a href="https://devyuseon.github.io/blog/2024/03/11/design-access-control-strategy#%EC%9A%B0%EB%A6%AC-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90%EB%8A%94--2" class="hash-link" aria-label="Direct link to 우리 서비스에는 ..." title="Direct link to 우리 서비스에는 ...">​</a></h4>
 <p>위 전략들을 모두 살펴보았을 때, 복잡한 우리 서비스의 상황에 가장 알맞다고 생각했다. 유저에 대한 DB정보가 디폴트로 없는 환경에서 유저의 접속 정보와 아이디 등만 보고 판단할 수 있는 가장 좋은 방법이라고 생각했다.</p>
