@@ -112,12 +112,15 @@ L4 에서도 뭔가 타임아웃이 걸려있는것은 아닐까..? 하고 해�
 ### Nginx timeout
 
 ```nginx title="/etc/nginx/nginx.conf"
-keepalive_timeout 65; // default 75
+proxy_connection_timeout
+proxy_send_timeout
+proxy_read_timeout
+send_timeout
 ```
 
 여기였다 !!
 
-keepalive_timeout이 65초로 설정 되어 있었다. 지금껏 Nginx 설정을 바꿀 일이 없어서 자세히 들여다 보지 않아서 몰랐다.
+nginx로 리버스 프록시 설정이 되어 있는데, [nginx 공식문서](https://nginx.org/en/docs/http/ngx_http_proxy_module.html)를 보면 위 설정들의 기본 timeout이 60s로 잡혀있다.
 
 이 사실을 알고 난 뒤 nginx 에러 로그를 보니 (로그 경로는 nginx.conf 에 있다.)
 
@@ -128,6 +131,8 @@ keepalive_timeout이 65초로 설정 되어 있었다. 지금껏 Nginx 설정을
 connection timeout 에러 로그가 찍혔다.
 
 spring이 express로 응답을 보내, express가 client에 응답하기 전에 client와 express간의 연결이 끊어져 client가 응답을 받지 못한 것이다.
+
+항상 도커가 수집한 express 로그만 들여다봤지, nginx의 로그를 봐야한다는 사실을 인지하지 못했다.
 
 ## 해결
 
