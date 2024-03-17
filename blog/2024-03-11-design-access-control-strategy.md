@@ -170,20 +170,26 @@ toc_max_heading_level: 4
 
 ```json
 [
-	"post": {
-		"a": {
-			"USER|kildong.hong": {
-				"allow": ["read"],
-				"deny": ["create", "update", "delete"]
-			},
-			"GROUP|회계팀": {
-				// 생략
-			},
-			"ACCESS|사내직원": {
-				// 생략
-			}
-		}
-	}
+    "post": {
+        "a": {
+            "USER|kildong.hong": {
+                "allow": [
+                    "read"
+                ],
+                "deny": [
+                    "create",
+                    "update",
+                    "delete"
+                ]
+            },
+            "GROUP|회계팀": {
+                // 생략
+            },
+            "ACCESS|사내직원": {
+                // 생략
+            }
+        }
+    }
 ]
 ```
 

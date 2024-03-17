@@ -5,6 +5,25 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+* {
+  font-family: "NanumSquareRound";
+}
+
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+  font-family: "Fira Code", monospace !important;
+}
+
 :root {
   --ifm-color-primary: #1b7ade;
   --ifm-color-primary-dark: #186ec8;
