@@ -6,6 +6,8 @@
 
 /* You can override the default Infima variables here. */
 
+/* font css */
+
 @font-face {
   font-family: "NanumSquareRound";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
@@ -15,14 +17,22 @@
 }
 
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@import url("https://fonts.cdnfonts.com/css/cascadia-code");
 
-* {
+*,
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "NanumSquareRound";
 }
 
-.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
-  font-family: "Fira Code", monospace !important;
+pre code * {
+  font-family: "Cascadia Code", sans-serif, "Fira Code", monospace;
 }
+
+/* 메인 테마 색상 css */
 
 :root {
   --ifm-color-primary: #1b7ade;
