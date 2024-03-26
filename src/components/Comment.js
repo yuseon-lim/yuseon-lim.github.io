@@ -3,42 +3,50 @@ import { useColorMode } from "@docusaurus/theme-common";
 
 function Comment() {
   const containerRef = useRef(null);
-  const utterancesRef = useRef(null);
+  const gisCusRef = useRef(null);
 
   const { colorMode } = useColorMode();
-  const utterancesTheme = colorMode === "dark" ? "github-dark" : "github-light";
+  const giscusTheme = colorMode === "dark" ? "dark" : "light";
 
   useEffect(() => {
-    const createUtterancesEl = () => {
+    const createGiscusEl = () => {
       const script = document.createElement("script");
-      script.src = "https://utteranc.es/client.js";
-      script.setAttribute("repo", "lifeisegg123/lifeisegg-blog");
-      script.setAttribute("issue-term", "title");
-      script.setAttribute("label", "comment");
-      script.setAttribute("theme", utterancesTheme);
+      script.src = "https://giscus.app/client.js";
+      script.setAttribute("data-repo", "devyuseon/devyuseon.github.io");
+      script.setAttribute("data-repo-id", "R_kgDOGfRXdQ");
+      script.setAttribute("data-category", "Comments");
+      script.setAttribute("data-category-id", "DIC_kwDOGfRXdc4CePRR");
+      script.setAttribute("data-mapping", "pathname");
+      script.setAttribute("data-strict", "0");
+      script.setAttribute("data-reactions-enabled", "1");
+      script.setAttribute("data-emit-metadata", "0");
+      script.setAttribute("data-input-position", "bottom");
+      script.setAttribute("data-theme", giscusTheme);
+      script.setAttribute("data-lang", "ko");
       script.crossOrigin = "anonymous";
       script.async = true;
       script.onload = () => {
-        utterancesRef.current = document.querySelector(".utterances-frame");
+        gisCusRef.current = document.querySelector(".giscus-frame");
       };
 
       containerRef.current.appendChild(script);
     };
-    createUtterancesEl();
+    createGiscusEl();
   }, []);
 
   useEffect(() => {
-    if (!utterancesRef.current) return;
+    if (!gisCusRef.current) return;
     const message = {
-      type: "set-theme",
-      theme: utterancesTheme,
+      setConfig: {
+        theme: giscusTheme,
+      },
     };
 
-    utterancesRef.current.contentWindow.postMessage(
-      message,
-      "https://utteranc.es"
+    gisCusRef.current.contentWindow.postMessage(
+      { giscus: message },
+      "https://giscus.app"
     );
-  }, [utterancesTheme]);
+  }, [giscusTheme]);
 
   return <div ref={containerRef} />;
 }
