@@ -6,7 +6,8 @@ function Comment() {
   const gisCusRef = useRef(null);
 
   const { colorMode } = useColorMode();
-  const giscusTheme = colorMode === "dark" ? "dark" : "light";
+  const giscusTheme =
+    colorMode === "dark" ? "dark_high_contrast" : "light_high_contrast";
 
   useEffect(() => {
     const createGiscusEl = () => {
