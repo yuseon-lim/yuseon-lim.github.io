@@ -29,3 +29,10 @@ _site
 
 # 임시폴터
 .drafts
+
+# docusaurus build
+.docusaurus/**
+
+# obsidian
+
+blog/.obsidian/**
