@@ -1,6 +1,6 @@
 ---
 title: Spring REST Docs + OAS 적용기
-description: 진행하면서 배운점들 정리
+description: Spring REST Docs + OAS 적용한 이유와, 방법, 몇가지 팁을 작성해 보았다.
 authors: yuseonLim
 hide_table_of_contents: false
 toc_max_heading_level: 4
