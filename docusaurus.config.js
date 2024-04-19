@@ -36,6 +36,8 @@ const config = {
           routeBasePath: "blog",
           tagsBasePath: "tags",
           archiveBasePath: "archive",
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -57,7 +59,7 @@ const config = {
         title: "뉴뉴의 메모장",
         logo: {
           alt: "My Site Logo",
-          src: "img/squirrel.png",
+          src: "img/sticky-note.png",
         },
         items: [
           // {

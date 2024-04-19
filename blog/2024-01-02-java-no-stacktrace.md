@@ -1,7 +1,6 @@
 ---
 title: "[Java] 에러 메시지, Stacktrace가 생략되는 문제"
 description: NullPointerException의 에러 메시지가 빈 채로 출력된다
-authors: yuseonLim
 tags:
   - java
 ---

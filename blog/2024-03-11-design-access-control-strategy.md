@@ -1,7 +1,6 @@
 ---
 title: 통합 접근 제어 전략을 설계 해보다.
 description: 흩어져 하드코딩되어 있는 권한 관리를 하나로 통합하는 설계를 진행해 보았다.
-authors: yuseonLim
 tags:
   - design
 hide_table_of_contents: false
