@@ -72,11 +72,11 @@ const config = {
           { to: "/blog/tags", label: "Tags", position: "left" },
           { to: "/blog/archive", label: "Archive", position: "left" },
 
-          // {
-          //   href: "https://github.com/facebook/docusaurus",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
+          {
+            href: "https://github.com/devyuseon",
+            label: "GitHub",
+            position: "right",
+          },
         ],
       },
       footer: {
