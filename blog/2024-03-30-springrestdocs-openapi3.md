@@ -9,6 +9,12 @@ toc_max_heading_level: 4
 
 <!-- truncate -->
 
+:::danger
+
+**restdocs-api-spec** 라이브러리 사용시, `@ModelAttribute`, `@RequestParts` 에 대한 문서화가 어려운 점을 발견했습니다. 반드시 이 어노테이션이 필요한 경우, springdoc을 고려해보는게 좋을 듯 합니다 :)
+
+:::
+
 ## 필요성
 
 앱개발자와 협업할때 API 문서화가 필요할 것이라 생각되어 Swagger를 쓰기로 했는데, 나의 제안으로 REST DOCS + OAS를 도입하게 되었다. 이 글을 보는 사람들에게 Spring REST Docs + OAS를 팔아보려고 한다.
