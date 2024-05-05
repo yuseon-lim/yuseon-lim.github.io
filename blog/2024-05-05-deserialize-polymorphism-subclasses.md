@@ -15,7 +15,7 @@ opensearch(≒elasticsearch) 인덱스 매핑이 dynamic으로 되어 있고, ty
 
 해결법이 있을 거라 굳게 믿고, draw.io를 켜 야심차게 인터페이스와 추상클래스로 아래 구조로 추상화를 해보았습니다. (회사 코드를 가져올 수 없어 클래스 이름은 임의로 정했습니다.)
 
-![](https://private-user-images.githubusercontent.com/67352902/328025486-613adb76-2e6f-44c5-ac0e-6c7f54667665.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ5MjAwNDksIm5iZiI6MTcxNDkxOTc0OSwicGF0aCI6Ii82NzM1MjkwMi8zMjgwMjU0ODYtNjEzYWRiNzYtMmU2Zi00NGM1LWFjMGUtNmM3ZjU0NjY3NjY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTA1VDE0MzU0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjOWMyMjgwY2YwYjQyYzFhZTYxZDJkODY5OTM1Mjk4NGJmNDMwMzkyMjI4ZjBmYmQ4MmUzYjI5OWM2YzRmY2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.CQQttPqOPLxMEO9IJy-vD4yrOj8bcscyRGkdap1BkMc)
+![](../static/img/post-img/20240505112503.png)
 
 `opensearch-java` 라이브러리를 사용해서 다음과 같이 response를 지정한 클래스로 역직렬화 할 수 있습니다.
 
