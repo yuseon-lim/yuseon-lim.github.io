@@ -112,7 +112,7 @@ document.getPolicies().get(2).getClass() = class hello.jsontest.classes.CPolicy
 `use`에는 세 옵션을 사용할 수 있습니다.
 
 - **Id.CLASS**: 클래스 명으로 서브타입을 구분하겠다는 의미입니다.
-  - 역직렬화시 class 명이 json에 남게 됩니다.
+  - 직렬화시 class 명이 json에 남게 됩니다.
 - **Id.NAME**: 위 예시처럼, 특정 프로퍼티를 name으로 지정해 구분합니다.
   - include = As.PROPERTY
     - 직렬화 시 type 정보가 생성됩니다.
