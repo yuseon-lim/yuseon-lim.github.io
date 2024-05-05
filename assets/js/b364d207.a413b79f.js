@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdevyuseon_github_io=self.webpackChunkdevyuseon_github_io||[]).push([[3364],{5498:e=>{e.exports=JSON.parse('{"label":"opensource-contributions","permalink":"/blog/tags/opensource-contributions","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
