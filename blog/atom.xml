@@ -58,7 +58,7 @@
 <ul>
 <li><strong>Id.CLASS</strong>: 클래스 명으로 서브타입을 구분하겠다는 의미입니다.<!-- -->
 <ul>
-<li>역직렬화시 class 명이 json에 남게 됩니다.</li>
+<li>직렬화시 class 명이 json에 남게 됩니다.</li>
 </ul>
 </li>
 <li><strong>Id.NAME</strong>: 위 예시처럼, 특정 프로퍼티를 name으로 지정해 구분합니다.<!-- -->
