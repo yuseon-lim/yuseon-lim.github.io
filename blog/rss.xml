@@ -15,6 +15,7 @@
             <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[jackson으로 json 역직렬화시 필드 값으로 매핑 타입을 결정하는 방법을 알아본다.]]></description>
             <content:encoded><![CDATA[<p>다양한 json 구조를 다형성을 적용한 (인터페이스, 상속 ...) 자바 객체로 역직렬화 하기!</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>이해를 돕기 위해 저의 상황을 설명해 놓았으나, 이 경우가 아니더라도 <strong>Jackson</strong>을 사용하는 모든 곳에 적용 가능한 방법입니다. :)</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="클래스-구조">클래스 구조<a href="https://devyuseon.github.io/blog/2024/05/05/deserialize-polymorphism-subclasses#%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B5%AC%EC%A1%B0" class="hash-link" aria-label="Direct link to 클래스 구조" title="Direct link to 클래스 구조">​</a></h2>
 <p>opensearch(≒elasticsearch) 인덱스 매핑이 dynamic으로 되어 있고, type별로 json 구조가 달랐습니다. 기존 코드는 HashMap으로 읽은 다음 <code>.get().get()...</code> 하는 구조로 되어 있었습니다🥲.</p>
 <p>해결법이 있을 거라 굳게 믿고, draw.io를 켜 야심차게 인터페이스와 추상클래스로 아래 구조로 추상화를 해보았습니다. (회사 코드를 가져올 수 없어 클래스 이름은 임의로 정했습니다.)</p>
