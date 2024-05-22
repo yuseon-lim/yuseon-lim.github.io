@@ -9,6 +9,12 @@ toc_max_heading_level: 4
 
 <!-- truncate -->
 
+:::info
+
+이해를 돕기 위해 저의 상황을 설명해 놓았으나, 이 경우가 아니더라도 **Jackson**을 사용하는 모든 곳에 적용 가능한 방법입니다. :)
+
+:::
+
 ## 클래스 구조
 
 opensearch(≒elasticsearch) 인덱스 매핑이 dynamic으로 되어 있고, type별로 json 구조가 달랐습니다. 기존 코드는 HashMap으로 읽은 다음 `.get().get()...` 하는 구조로 되어 있었습니다🥲.
@@ -26,6 +32,7 @@ SearchResponse<IndexData> searchResponse = client.search(s -> s.index(index), In
 opensearch-java는 내부적으로 **jackson** 라이브러리를 사용하고 있습니다.
 
 해결법은 의외로 간단했는데요, Jackson에서 제공하는 어노테이션으로 서브 타입을 매핑하면 됩니다.
+
 
 ## 매핑 타입을 지정하지 않았을 때
 
