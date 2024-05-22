@@ -3,8 +3,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "뉴뉴의 메모장",
-  tagline: "뉴뉴의 메모장에 오신것을 환영합니다 ☺️",
+  title: "도각도각 메모장",
+  tagline: "개발관련 지식이나 생각을 메모하는 곳입니다.",
   favicon: "img/favicon.ico",
   url: "https://devyuseon.github.io",
   baseUrl: "/",
