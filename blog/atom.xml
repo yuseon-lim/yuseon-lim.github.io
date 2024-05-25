@@ -2,11 +2,210 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dogakday.com/blog</id>
     <title>도각도각 메모장 Blog</title>
-    <updated>2024-05-22T00:00:00.000Z</updated>
+    <updated>2024-05-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dogakday.com/blog"/>
     <subtitle>도각도각 메모장 Blog</subtitle>
     <icon>https://dogakday.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SpringCamp 2024 후기 🌱]]></title>
+        <id>https://dogakday.com/blog/2024/05/25/springcamp-2024</id>
+        <link href="https://dogakday.com/blog/2024/05/25/springcamp-2024"/>
+        <updated>2024-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[스프링캠프에 다녀왔다 🌱]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://springcamp.ksug.org/2024/" target="_blank" rel="noopener noreferrer">2024 스프링캠프</a>에 다녀왔다!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="치열했던-티켓팅">치열했던 티켓팅<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%EC%B9%98%EC%97%B4%ED%96%88%EB%8D%98-%ED%8B%B0%EC%BC%93%ED%8C%85" class="hash-link" aria-label="Direct link to 치열했던 티켓팅" title="Direct link to 치열했던 티켓팅">​</a></h2>
+<div style="width:60%"><p><img decoding="async" loading="lazy" alt="결제창" src="https://dogakday.com/assets/images/IMG_5213-8f75da94da18ddb7a4f2b7a159f4a476.jpg" width="1170" height="1406" class="img_ev3q"></p></div>
+<p>핸드폰으로 시도했는데 다행히 성공했다. 1분도 안되어 매진되었다고 한다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="현장-사진-및-굿즈-수령">현장 사진 및 굿즈 수령<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%ED%98%84%EC%9E%A5-%EC%82%AC%EC%A7%84-%EB%B0%8F-%EA%B5%BF%EC%A6%88-%EC%88%98%EB%A0%B9" class="hash-link" aria-label="Direct link to 현장 사진 및 굿즈 �수령" title="Direct link to 현장 사진 및 굿즈 수령">​</a></h2>
+<div style="width:60%"><p><img decoding="async" loading="lazy" alt="현장" src="https://dogakday.com/assets/images/IMG_5202-e7cf0c00402c1df1a0246fbabadc649c.jpg" width="4032" height="3024" class="img_ev3q"></p></div>
+<p><img decoding="async" loading="lazy" alt="굿즈" src="https://dogakday.com/assets/images/IMG_5212-d1baa9fa3355f7b35cd0d6f1bce35f14.jpg" width="4032" height="3024" class="img_ev3q"></p>
+<p>현대자동차, 카카오뱅크 부스가 있어 빨대&amp;칫솔 세트와 수건을 받았다. 스프링캠프 주최측에선 손풍기를 주셨다. 이번 여름에 안그래도 사려고 했던 터라 마음에 쏙 들었고, 무엇보다 가장 좋았던건 키캡..!!! 키보드 덕후로서 키캡 굿즈라니 이건 최고야.. 스티커도 야무지게 챙겨왔다 ㅎㅎ</p>
+<p>다들 서로 인사하고 하시던데 나만 친구가 없어서 약간 슬펐다.. 2024 하반기에는 커뮤니티 활동을 할 수 있는 기회가 있으면 좋겠다. 개발바닥이나 유쾌한 스프링 방 같은 오픈채팅도 들어가 있는데, 인싸력을 좀 더 키울 필요가 있겠다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="타임-테이블">타임 테이블<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%ED%83%80%EC%9E%84-%ED%85%8C%EC%9D%B4%EB%B8%94" class="hash-link" aria-label="Direct link to 타임 테이블" title="Direct link to 타임 테이블">​</a></h2>
+<table><thead><tr><th>Track 1</th><th></th><th></th></tr></thead><tbody><tr><td>12:00 ~ 13:00</td><td>접수 / 등록</td><td></td></tr><tr><td>13:00 ~ 13:45</td><td>Tidy First</td><td>안영회</td></tr><tr><td>14:00 ~ 14:45</td><td>Spring AI : LLM에도 봄이 찾아오다.</td><td>황민호</td></tr><tr><td>14:45 ~ 15:15</td><td>Coffee Break</td><td></td></tr><tr><td>15:15 ~ 16:00</td><td>왜 나는 테스트를 작성하기 싫을까?</td><td>조성아</td></tr><tr><td>16:15 ~ 17:00</td><td>실전! MSA 개발 가이드</td><td>김용욱</td></tr><tr><td>17:15 ~ 18:00</td><td>구해줘 홈즈! 은행에서 3천만 트래픽의 홈 서비스 새로 만들기</td><td>이영규</td></tr></tbody></table>
+<table><thead><tr><th>Track 2</th><th></th><th></th></tr></thead><tbody><tr><td>12:00 ~ 13:00</td><td>접수 / 등록</td><td></td></tr><tr><td>13:00 ~ 13:45</td><td>동시성의 미래 - 코루틴의 버츄얼 스레드</td><td>이상훈</td></tr><tr><td>14:00 ~ 14:45</td><td>Spring Coroutine In Action</td><td>최진영</td></tr><tr><td>14:45 ~ 15:15</td><td>Coffee Break</td><td></td></tr><tr><td>15:15 ~ 16:00</td><td>스프링 R2DBC 연동 기능을 활용한 작은 코틀린 SQL DSL 개발기</td><td>오현석</td></tr><tr><td>16:15 ~ 17:00</td><td>데이터를 스케치 하기</td><td>황영</td></tr><tr><td>17:15 ~ 18:00</td><td>AutoParams를 사용한 Spring Boot 응용프로그램 테스트</td><td>이규원</td></tr></tbody></table>
+<p>두 트랙으로 나뉘어서 진행되었다. 해당 시간에 원하는 세션을 선택해서 들을 수 있었는데, 아직 코틀린으로 스프링을 다루어 본 적은 없어서 Track1 세션으로 쭉 들었다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tidy-first">🌱 Tidy First?<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#-tidy-first" class="hash-link" aria-label="Direct link to 🌱 Tidy First?" title="Direct link to 🌱 Tidy First?">​</a></h2>
+<p><img decoding="async" loading="lazy" src="https://m.media-amazon.com/images/I/414Lja0sVML._SY445_SX342_.jpg" alt="" class="img_ev3q"></p>
+<p>TDD, 리팩토링의 저자로 유명한 켄트 백의 신간인 <em>Tidy First?</em> 의 역자이신 안영회님의 세션이였다.</p>
+<p>Tidy는 한국말로 하면 '코드 정리' 쯤으로 번역할 수 있다. 이 책은 총 3권 시리즈로 구성되어 있고, Tidy First?는 이중 첫번째 책이다. 두번째 책은 <em>Tidy Together</em> 로 나올 가능성이 크다고 한다.</p>
+<p>사실 소프트웨어 개발이란 요구사항에 맞는 결과물이 올바르게 나오기만 하면 되지만, 한번 만들고 끝이 아니라, 유지보수를 계속 해야한다. 따라서 변경에 용이한 코드를 짜는 것이 중요하다. 이 과정에서 필요한게 <strong>Tidy</strong>이고, 이것을 <strong>왜</strong> 해야 하는지, <strong>언제</strong> 해야 하는지, <strong>어떻게</strong> 해야 하는지에 대해 다루는 책이다.</p>
+<p>이 책의 설명에 안영회님이 소프트웨어 개발에 대해 생각하는 바를 엿볼 수 있었는데</p>
+<blockquote>
+<p>소프트웨어 개발이란 '유기체'와 유사하다. "요소를 유익하게 관계맺는 일" 이다.</p>
+</blockquote>
+<p>이 문장이 인상깊었던 것 같다. 생물과 유사하게 소프트웨어도 쪼개면 작은 단위로 이루어져 있고, 그것들이 상호작용 해 하나의 시스템을 만들어 내기 때문이다.</p>
+<p>짧은 경력을 갖고 있는 나지만,, 강연 내용에는 공감할 수 있는 내용이 아주 많았다. 코드는 완벽할 수 없고, 때론 급하게 작성하기도 하는데 이걸 언젠간 정리해야 한다. 미루면 미룰수록 하기 힘들어지고, 처음부터 잘 해놓는게 가장 베스트이다. 코드를 정리하는 방법론을 공부해서 적용해보면 더 좋을 것 같다.</p>
+<p>책이 코드를 타이핑하면서 따라할 수 있게끔 구성되어 있다고 하는데, 스터디를 구성해서 완주를 한번 해보고 싶다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-spring-ai--llm에도-봄이-찾아오다">🌱 Spring AI : LLM에도 봄이 찾아오다.<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#-spring-ai--llm%EC%97%90%EB%8F%84-%EB%B4%84%EC%9D%B4-%EC%B0%BE%EC%95%84%EC%98%A4%EB%8B%A4" class="hash-link" aria-label="Direct link to 🌱 Spring AI : LLM에도 봄이 찾아오다." title="Direct link to 🌱 Spring AI : LLM에도 봄이 찾아오다.">​</a></h2>
+<p><img decoding="async" loading="lazy" src="https://dogakday.com/assets/images/IMG_5206-f9b221b9546be64271d21c9c4e3bc380.jpg" width="2567" height="3193" class="img_ev3q"></p>
+<p>카카오의 황민호님 세션이였다. LLM의 발전 과정과 Spring AI를 활용하는 방법에 대해 강연해주셨다. SpringAI의 특징을 간략하게 정리하면</p>
+<ul>
+<li>주요 AI Provider 통합<!-- -->
+<ul>
+<li>OpenAI, 마이크로소프트 Asure, 아마존, 구글 등 지원</li>
+<li>채팅, 텍스트-이미지 변환 모델 유형 지원</li>
+<li>동기식 및 스트림 지원</li>
+</ul>
+</li>
+<li>주요 벡터DB 지원</li>
+<li>AI 개발 편의<!-- -->
+<ul>
+<li>AI 모델 출력을 POJO로 매핑</li>
+<li>Function Calling 지원</li>
+<li>AI용 SpringBoot Starter 지원</li>
+</ul>
+</li>
+</ul>
+<p>정도가 있겠다. 지금 v.0점대 개발이 진행중이고 올해 하반기쯤 v1.0이 나온다고 한다. 나 또한 ChatGPT와 코파일럿을 정말 유용하게 쓰고 있다. AI가 정말 빠르게 발전하고 있다고 느껴진다. 개발자로서도 무시할 수 없는 흐름인 것 같다. 이러한 프레임워크를 이용해 AI를 사용 할 수 있는 능력을 갖춘 개발자도 곧 수요가 점점 늘어날 것 같다. 실제로 그런 것 같기도 하다.</p>
+<p>보안적으로 국내 최고 예민한 우리회사도 최근 마이크로소프트 코파일럿을 이용할 수 있게 해주었다. IT분야가 AI시대를 맞으며 빠르게 변화하고 있다.</p>
+<p>나도 다음 사이드 프로젝트는 AI를 활용한 프로젝트를 해보아야 겠다. <del>돈만 문제가 안된다면</del></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-coffee-break">☕️ Coffee Break<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%EF%B8%8F-coffee-break" class="hash-link" aria-label="Direct link to ☕️ Coffee Break" title="Direct link to ☕️ Coffee Break">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://dogakday.com/assets/images/IMG_5207-a793293f018625106d4ab6ac4c4c2525.jpg" width="3007" height="3029" class="img_ev3q"></p>
+<p>달다구리와 커피(또는 오렌지주스) 나눠주셔서 기력 충전했다 👍</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="왜-나는-테스트를-작성하기-싫을까">왜 나는 테스트를 작성하기 싫을까?<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%EC%99%9C-%EB%82%98%EB%8A%94-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EC%8B%AB%EC%9D%84%EA%B9%8C" class="hash-link" aria-label="Direct link to 왜 나는 테스트를 작성하기 싫을까?" title="Direct link to 왜 나는 테스트를 작성하기 싫을까?">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://dogakday.com/assets/images/IMG_5209-1cb7aeeec1af6e64c5f8ae4a49c19111.jpg" width="2458" height="2418" class="img_ev3q"></p>
+<p>네이버 플라즈마팀의 조성아님 세션이였다. 테스트를 작성하는 자세에 대한 이야기였고, 오픈소스인 <a href="https://naver.github.io/fixture-monkey/v1-0-0/" target="_blank" rel="noopener noreferrer">🐵 FixtureMonkey</a>개발기와 사용 팁도 전달해주셨다.</p>
+<p>픽스쳐몽키는 들어본 적이 있긴 한데, 테스트 라이브러리라고만 알고있고 용도는 몰랐다. 테스트에 필요한 객체들을 쉽게 생성해주는 라이브러리라고 한다. 테스트를 작성한 경험이 많지는 않지만, REST Docs로 테스트 작성할때, 필요한 오브젝트들을 생성자나 빌더로 생성해주는 과정은 꽤.. 귀찮긴 했다. 이러한 과정을 줄여줄 수 있다니 적극 검토해보아야 겠다는 생각을 했다.</p>
+<p>테스트를 작성하면 안전성을 높여 신뢰성 있는 프로그램을 만들 수 있다. 하지만 테스트를 작성하는데에도 비용이 든다. 가장 큰 문제점은 요구사항이 추가되고 변경될때 테스트도 같이 수정이 필요하다는 것이다. 기능 하나 추가하고 필드 하나 추가했는데 몇백개의 테스트를 수정해야 한다면...? 끔찍하다.</p>
+<p>이러한 트레이드오프를 고민한 경험에 대해 풀어주셨다. 이런 저런 실패를 경험하고 시행착오를 겪으며 테스트에 대해 나름의 정의를 한 과정을 공유해주셨다.</p>
+<blockquote>
+<p>모든 테스트 케이스, 엣지 케이스를 모두 테스트 하려고 하기보단 동작 여부 검증에 집중하자.</p>
+</blockquote>
+<p>테스트를 작성하는 것은 중요하지만, 지속 가능한 테스트를 작성하는것이 가장 중요하다! 는 메시지였다.</p>
+<p>테스트의 필요성은 뼈저리게 느끼고 있다. 회사에서 SpringBoot로 된 부분은 한번 시작하면 타고타고 들어가 동작하는.. 마치 절차지향처럼 되어있다. 여기서 하나 수정하려고 하면 자신이 일단 없다. 수정을 해서 원래 동작했던 기능이 잘 될지 알 수가 없다. 심지어 리눅스에서만 동작하고, 정해진 폴더 구조에서만 동작하기 때문에 윈도우 IDE에서조차 돌릴 수 없다. 기능 하나 수정하면 길게는 40분.. 동안 코드를 실행해보고 로그를 통해서 디버깅 해야 하는 상황이다. 저번에 리팩토링 한다고 코드를 대거 수정한 적이 있었는데, 하루에 9/10 정도를 실행해서 결과보는 시간에 써야 했다. 테스트가 있었다면, 테스트가 가능한 환경을 염두에 두고 작성되었다면 이런 일이 없었을거다. 진짜 너무 힘들다..</p>
+<p>하지만 이미 완성된 시스템에서 테스트를 추가하기란 쉽지 않다. 테스트를 고려하지 않고 짜여졌기 때문에, 유닛테스트와 같은 작은 단위의 테스트는 매우 힘들다. Q&amp;A에서 이것에 대한 힌트를 얻을 수 있었는데, 분리 가능한것을 분리하고 이것부터 테스트 하는 방법이다. 테스트 코드가 없지만, 나부터 일단 실천하고 테스트의 장점을 행동으로 입증해야겠다는 생각을 했다. 이번에 추가되는 기능은 꼭. 테스트 작성하면서 해보려고 한다.</p>
+<p>일단 테스트 작성법부터 공부해야 할 것 같다. 테스트를 잘 하는 사람이 비지니스 코드도 잘 짜게 될 수 있을것 같다는 생각이 든다. 작은 단위의 테스트가 가능하다는 것은 결합도가 낮다는 뜻이기 때문이다. 여러모로 느끼는 것이 많았던 세션이다.</p>
+<p>추가로 불편한 점을 개선하려고 오픈소스까지 개발하는 모습이 정말 멋있었다. 오픈소스 메인테이너라니 내 워너비다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="실전-msa-개발-가이드">실전! MSA 개발 가이드<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%EC%8B%A4%EC%A0%84-msa-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C" class="hash-link" aria-label="Direct link to 실전! MSA 개발 가이드" title="Direct link to 실전! MSA 개발 가이드">​</a></h2>
+<p>삼성 SDS의 김용욱님의 강연이였다. 사내에서 MSA 컨설턴트와 개발을 하고 계신다고 한다. 이번 스프링캠프 강연중에서도 정말 인상깊었던 시간이였다.</p>
+<p>간단하게 정리해보면 다음과 같다.</p>
+<p>+++</p>
+<p>MSA를 도입하려면 다음 두가지가 걱정이 된다.</p>
+<ul>
+<li>API로 속도가 괜찮을까?</li>
+<li>트랜잭션 보장 없이 정합성이 맞을까?</li>
+</ul>
+<p><strong>📌 API로 속도가 괜찮을까?</strong></p>
+<p>MSA로 시스템을 구성하게 되면 각 서비스는 API를 통해 통신하게 된다. 네트워크를 타기 때문에 속도에 대한 우려가 있기 마련이다. 이를 해결하는 방법은 이런 것들이 있다.</p>
+<ol>
+<li>데이터 복제<!-- -->
+<ul>
+<li>필요한 속성을 미리 복사해두고, 배치 등으로 sync를 맞춘다.</li>
+<li>이때 주의할 것은 몽땅 복사하면 안된다는 것이다. DB Table로 치면, 몇개 필요한 속성만 복사해둔다.</li>
+</ul>
+</li>
+<li>모델링 변경<!-- -->
+<ul>
+<li>설계할때 예를들어 '고객'과 '상담'테이블이 있다면, 해당 데이터가 '고객'과 관련된 데이터이고, 설계상 고객서비스와 같이있는 것이 원래의 그림일때 만약 '상담' 서비스에서 자주 참조하는 것이라면 고객정보지만 상담 서비스쪽에 데이터를 두는것이다. 이렇게 되면 서비스간 통신을 하지 않고도 해결할 수 있다.</li>
+</ul>
+</li>
+<li>일괄 조회<!-- -->
+<ul>
+<li>200개를 조회한다고 치면, REST API 200개가 나가는 것이 아니라, 한번에 조회할 수 있게 해야 한다.</li>
+<li>REST API의 N+1 Problem 문제가 있다.</li>
+</ul>
+</li>
+<li>병렬 조회<!-- -->
+<ul>
+<li>순간적으로 큰 부하가 생길 수 있어 대부분의 경우 안티패턴이다.</li>
+</ul>
+</li>
+<li>로컬 캐시<!-- -->
+<ul>
+<li>공통코드와 같이 변경이 적지만 자주 조회해야 하는 경우, 로컬캐시에 올려두고 사용한다.</li>
+<li>Redis는 느리다.</li>
+<li>로컬캐시는 동기화 하지 않는 것을 전제로 한다.<!-- -->
+<ul>
+<li>서비스가 여러개일때 이를 동기화 할 수 없다.</li>
+<li>동기화 하는 것은 안티패턴이다.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>📌 트랜잭션 보장 없이 정합성이 맞을까?</strong></p>
+<p>서비스가 나뉘어져 있기 때문에 하나의 기능에서 한번의 트랜잭션으로 동작을 모두 수행할 수 없다.</p>
+<ul>
+<li>MSA 구조의 경우 전체 과정에 대한 롤백이 불가능하다.</li>
+<li>롤백 대신 실패시 삭제하는 API가 필요하다.</li>
+<li>그럼 삭제하다가 실패하면 어쩌냐?<!-- -->
+<ul>
+<li>대사작업이 필요할 수 있다는것을 인지해둔다. (ex. 배치)</li>
+</ul>
+</li>
+<li>API가 실패했을때 바로 재시도 하는것은 대부분 안티패턴이다.<!-- -->
+<ul>
+<li>해당 서비스가 회복할 시간을 주어야 한다.</li>
+<li>그런데 이벤트 방식은 괜찮다!<!-- -->
+<ul>
+<li>이벤트로 재시도 하는 것은 해당 서비스가 가능할때 큐 등에서 끌어다 쓰는 것이라 괜찮다.</li>
+</ul>
+</li>
+<li>그리고 실패라고 응답받았는데, 사실 성공했을 수도 있다는 것을 알아야 한다.<!-- -->
+<ul>
+<li>이렇게 되면 두번 수행하게 된다.</li>
+<li>따라서 멱등성이 보장되어야 한다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>언제 이벤트로 분리하는가?<!-- -->
+<ul>
+<li>실패해도 전체 취소가 없다면 이벤트로 분리한다.</li>
+</ul>
+</li>
+</ul>
+<p>+++</p>
+<p>하나하나 다 도움되고 공부할 수 있는 내용이라 열심히 적어본 세션이였다. 회사 프로젝트의 경우 MSA를 도입하기엔 사람도 없고, 작아서 당분간은 실무에서 경험 해볼 수 없는 점이 아쉽다.. 언젠가 개발할 때를 대비해 미리미리 공부해 두어야 겠다. MSA라는 개념이 멀게 느껴졌는데, 이번 세션을 들으면서 윤곽이 좀 보였던 것 같다. MSA를 적용한다는 것은 어떤 것이고, 주의할 점은 무엇인지 조금은 알 것 같다. 매우매우 좋았던 강연이였다!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="구해줘-홈즈-은행에서-3천만-트래픽의-홈-서비스-새로-만들기">구해줘 홈즈! 은행에서 3천만 트래픽의 홈 서비스 새로 만들기<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%EA%B5%AC%ED%95%B4%EC%A4%98-%ED%99%88%EC%A6%88-%EC%9D%80%ED%96%89%EC%97%90%EC%84%9C-3%EC%B2%9C%EB%A7%8C-%ED%8A%B8%EB%9E%98%ED%94%BD%EC%9D%98-%ED%99%88-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%83%88%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0" class="hash-link" aria-label="Direct link to 구해줘 홈즈! 은행에서 3천만 트래픽의 홈 서비스 새로 만들기" title="Direct link to 구해줘 홈즈! 은행에서 3천만 트래픽의 홈 서비스 새로 만들기">​</a></h2>
+<p>카카오뱅크 홈서비스개발팀의 이영규님의 발표였다. 은행에서 홈 서비스의 분리 여정을 소개하는 내용이였다.</p>
+<p>기술 부채로 해결하는 문제는 두가지 였다고 한다.</p>
+<ul>
+<li>구조적 문제</li>
+<li>성능적 문제</li>
+</ul>
+<p><strong>📌 구조적 문제 - 핵사고날 아키텍처</strong></p>
+<p>구조적 문제는 핵사고날 아키텍처를 적용해 풀었다고 한다. 요즘 정말 자주 들리는 단어인데, 아직 여기까지는 공부하지 못했다.🥲 도메인계층을 보호할 수 있는 아키텍처라고 한다. 개념을 잘 알지는 못해 아주 와닿진 않았지만, 어떤 것이 장점인지를 알게되어서 궁금하다는 생각이 커졌다. 공부할거 빨리 다 끝내고 아키텍처쪽도 파보고 싶다..</p>
+<p><strong>📌 성능적 문제 - 코루틴 적용</strong></p>
+<p>세가지가 고려 대상이였다고 한다.</p>
+<ul>
+<li>Spring @Async</li>
+<li>Spring Webflux</li>
+<li>코루틴</li>
+</ul>
+<p>코루틴을 채택하면서 Java에서 코틀린으로의 포팅작업도 이루어졌다고 한다. 코루틴은 나도 안드로이드 공부할때 접한 적이 있는데,, 제대로 사용해본 적은 없다. 멀티스레드를 다루기 좋다(?) 정도로만 알고 있었다. 요즘 코프링으로 개발하는사람이 부쩍 많아진 것 같고, 현업에서도 많이 쓰이는 듯 해보인다. 일단 자바를 정복하고,, 코틀린으로도 해보고 싶다.</p>
+<p><strong>📌 이관시 안정성 확보</strong></p>
+<p>좀 많이 새로웠던 부분이 이부분이였는데, 거의 새로운 프로젝트로 옮기면서, 그 전에 수행했던 기능이 잘 동작하는것을 검증하는것이 가장 중요했다고 한다. 그러면서 적용한 방법을 몇가지 소개해주셨는데, 아주 새로웠다.</p>
+<ul>
+<li>응답 비교 서비스<!-- -->
+<ul>
+<li>기존 서비스와 신규 서비스에 동일한 요청에서, 동일한 응답이 오는지 검증하는 서비스를 따로 만들었다고 한다.</li>
+<li>조회 위주의 서비스라 가능한 듯 했다.</li>
+<li>기존 서비스와 신규 서비스의 응답이 일치하지 않을 때, alert를 주면 로그를 확인해보는 방식으로 진행했다고 한다.</li>
+</ul>
+</li>
+<li>표본 검사<!-- -->
+<ul>
+<li>모든 서비스를 비교하고 검증하기 힘들어서 작은 비율부터 점점 늘려나갔다고 한다.</li>
+</ul>
+</li>
+<li>A/B 트래픽 분산<!-- -->
+<ul>
+<li>A/B 테스트를 하듯이 신규 서비스 / 기존 서비스로 트래픽을 분산시켰다고 한다.</li>
+<li>비율은 설정등으로 유동적으로 변경할 수 있게 구성해서, 문제상황에서도 대처 가능하게끔 구성했다고 한다.</li>
+</ul>
+</li>
+</ul>
+<p>이 세션에서 이관에 대한 내용이 가장 새로웠다. 이런 방법을 생각해볼 수도 있구나. 놀랐었다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="마무리">마무리<a href="https://dogakday.com/blog/2024/05/25/springcamp-2024#%EB%A7%88%EB%AC%B4%EB%A6%AC" class="hash-link" aria-label="Direct link to 마무리" title="Direct link to 마무리">​</a></h2>
+<p>생각보다 엄청 타이트하게 진행되었다. 내년에 또 갈 수 있게 되면 밥 든든히 먹고,, 커피도 충분히 마시고 참여해야겠다고 생각했다 ㅋㅋ</p>
+<p>참가하길 정말정말 잘했다고 생각이 들었다. 지금 들은 내용을 바로 흡수해서 실천하긴 어렵겠지만, 개발에 대한 나의 인사이트를 정말 넓게 확장시켜 줄 수 있는 좋은 기회였다고 생각한다. 온라인으로도 이런 자료들을 충분히 많이 접할 수 있지만 현장에서 듣는 것은 와닿는 정도가 다르다고 느꼈다.</p>
+<p>오프라인 행사 참여는 처음이였는데 너무 좋았던 기억밖에 없어서, 다른 좋은 참여 기회가 또 있다면 적극적으로 참여할 생각이다.</p>
+<p>오늘에 대한 감상이 다 날아가기전에 급하게 후다닥 적어보았다. 2025 스프링 캠프를 고민하신다면 꼭 참가해보시라고 권하고 싶다😚</p>
+<br>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Java에서 new String()으로 인코딩을 변환 할 수는 없다.]]></title>
         <id>https://dogakday.com/blog/2024/05/22/java-new-string-encoding</id>
@@ -55,7 +254,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-한글을-인코딩디코딩-할땐-주의하자">📌 한글을 인코딩/디코딩 할땐 주의하자.<a href="https://dogakday.com/blog/2024/05/22/java-new-string-encoding#-%ED%95%9C%EA%B8%80%EC%9D%84-%EC%9D%B8%EC%BD%94%EB%94%A9%EB%94%94%EC%BD%94%EB%94%A9-%ED%95%A0%EB%95%90-%EC%A3%BC%EC%9D%98%ED%95%98%EC%9E%90" class="hash-link" aria-label="Direct link to 📌 한글을 인코딩/디코딩 할땐 주의하자." title="Direct link to 📌 한글을 인코딩/디코딩 할땐 주의하자.">​</a></h2>
 <p>new String()으로 잘못을 해도 영어는 대부분의 캐릭터셋이 1바이트 이기 때문에 문제가 될 일이 거의 없다.</p>
 <p>하지만 한글의 경우 1에서 4바이트까지 가변형으로 저장되기 때문에 맞는 캐릭터셋을 지정해야 한다.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-수정한-코드">📌 수정한 코드<a href="https://dogakday.com/blog/2024/05/22/java-new-string-encoding#-%EC%88%98%EC%A0%95%ED%95%9C-%EC%BD%94%EB%93%9C" class="hash-link" aria-label="Direct link to 📌 수정한 코드" title="Direct link to 📌 수정한 코드">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-수정한-코드">📌 수정한 코드<a href="https://dogakday.com/blog/2024/05/22/java-new-string-encoding#-%EC%88%98%EC%A0%95%ED%95%9C-%EC%BD%94%EB%93%9C" class="hash-link" aria-label="Direct link to 📌 수정한 코드" title="Direct link to 📌 수정�한 코드">​</a></h2>
 <p>문제가 된 코드를 아래와 같이 수정하면 된다.</p>
 <div class="language-java codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-java codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token class-name" style="color:hsl(35, 99%, 36%)">BufferedReader</span><span class="token plain"> br </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">new</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">BufferedReader</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">new</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">InputStreamReader</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">new</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">FileInputStream</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">filePath</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"EUC-KR"</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token class-name" style="color:hsl(35, 99%, 36%)">BufferedWriter</span><span class="token plain"> bw </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">Files</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">newBufferedWriter</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token class-name" style="color:hsl(35, 99%, 36%)">Paths</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">get</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">filePath</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token class-name" style="color:hsl(35, 99%, 36%)">StandardCharsets</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token constant" style="color:hsl(35, 99%, 36%)">UTF_8</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">StandardOpenOption</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token constant" style="color:hsl(35, 99%, 36%)">APPEND</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token class-name" style="color:hsl(35, 99%, 36%)">String</span><span class="token plain"> line </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">""</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token keyword" style="color:hsl(301, 63%, 40%)">while</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">line </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> br</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">readLine</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token plain"> </span><span class="token operator" style="color:hsl(221, 87%, 60%)">!=</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">null</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token comment" style="color:hsl(230, 4%, 64%)">// 생략</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    bw</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">write</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">line</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    bw</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">newLine</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ul>
@@ -89,7 +288,7 @@
 <div class="language-java codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-java codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token class-name" style="color:hsl(35, 99%, 36%)">SearchResponse</span><span class="token generics punctuation" style="color:hsl(119, 34%, 47%)">&lt;</span><span class="token generics class-name" style="color:hsl(35, 99%, 36%)">IndexData</span><span class="token generics punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token plain"> searchResponse </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> client</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">search</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">s </span><span class="token operator" style="color:hsl(221, 87%, 60%)">-&gt;</span><span class="token plain"> s</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">index</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">index</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">IndexData</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">class</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>opensearch-java는 내부적으로 <strong>jackson</strong> 라이브러리를 사용하고 있습니다.</p>
 <p>해결법은 의외로 간단했는데요, Jackson에서 제공하는 어노테이션으로 서브 타입을 매핑하면 됩니다.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="매핑-타입을-지정하지-않았을-때">매핑 타입을 지정하지 않았을 때<a href="https://dogakday.com/blog/2024/05/05/deserialize-polymorphism-subclasses#%EB%A7%A4%ED%95%91-%ED%83%80%EC%9E%85%EC%9D%84-%EC%A7%80%EC%A0%95%ED%95%98%EC%A7%80-%EC%95%8A%EC%95%98%EC%9D%84-%EB%95%8C" class="hash-link" aria-label="Direct link to 매핑 타입을 지정하지 않�았을 때" title="Direct link to 매핑 타입을 지정하지 않았을 때">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="매핑-타입을-지정하지-않았을-때">매핑 타입을 지정하지 않았을 때<a href="https://dogakday.com/blog/2024/05/05/deserialize-polymorphism-subclasses#%EB%A7%A4%ED%95%91-%ED%83%80%EC%9E%85%EC%9D%84-%EC%A7%80%EC%A0%95%ED%95%98%EC%A7%80-%EC%95%8A%EC%95%98%EC%9D%84-%EB%95%8C" class="hash-link" aria-label="Direct link to 매핑 타입을 지정하지 않았을 때" title="Direct link to 매핑 타입을 지정하지 않았을 때">​</a></h2>
 <p>일단 아무런 조치를 하지 않았을 때, 어떤 일이 일어나는지 살펴봅시다. 아래와 같은 json을 Document.class로 역직렬화 해보겠습니다.</p>
 <div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">  </span><span class="token property" style="color:hsl(5, 74%, 59%)">"policies"</span><span class="token operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">      </span><span class="token property" style="color:hsl(5, 74%, 59%)">"type"</span><span class="token operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"a"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">      </span><span class="token property" style="color:hsl(5, 74%, 59%)">"type"</span><span class="token operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"b"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">      </span><span class="token property" style="color:hsl(5, 74%, 59%)">"type"</span><span class="token operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"c"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">  </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <div class="language-java codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-java codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token class-name" style="color:hsl(35, 99%, 36%)">ObjectMapper</span><span class="token plain"> objectMapper </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">new</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">ObjectMapper</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token class-name" style="color:hsl(35, 99%, 36%)">String</span><span class="token plain"> json </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"{\"policies\":[{\"type\":\"a\"},{\"type\":\"b\"},{\"type\":\"c\"}]}"</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token class-name" style="color:hsl(35, 99%, 36%)">Document</span><span class="token plain"> document </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> objectMapper</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token function" style="color:hsl(221, 87%, 60%)">readValue</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">json</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">Document</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">class</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -253,7 +452,7 @@
 <p>/build/api-spec/에 yaml 파일이 생긴것을 확인할 수 있다.</p>
 <p><img decoding="async" loading="lazy" src="https://dogakday.com/assets/images/2024-03-3011.10.03-f44454742f8a5bf3a2b021a707d18659.png" width="2360" height="1092" class="img_ev3q"></p>
 <p>IntelliJ 사용시 OAS 스팩을 UI로 바로 확인할 수도 있다.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="msa에서-api-문서-통합해-swagger-적용하기">MSA에서 api 문서 통합해 Swagger 적용하기<a href="https://dogakday.com/blog/2024/03/30/springrestdocs-openapi3#msa%EC%97%90%EC%84%9C-api-%EB%AC%B8%EC%84%9C-%ED%86%B5%ED%95%A9%ED%95%B4-swagger-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0" class="hash-link" aria-label="Direct link to MSA에서 api 문서 통합해 Swagger 적용하기" title="Direct link to MSA에서 api 문서 통합해 Swagger 적용하기">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="msa에��서-api-문서-통합해-swagger-적용하기">MSA에서 api 문서 통합해 Swagger 적용하기<a href="https://dogakday.com/blog/2024/03/30/springrestdocs-openapi3#msa%EC%97%90%EC%84%9C-api-%EB%AC%B8%EC%84%9C-%ED%86%B5%ED%95%A9%ED%95%B4-swagger-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0" class="hash-link" aria-label="Direct link to MSA에서 api 문서 통합해 Swagger 적용하기" title="Direct link to MSA에서 api 문서 통합해 Swagger 적용하기">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="흩어져-있는-yaml파일-통합">흩어져 있는 yaml파일 통합<a href="https://dogakday.com/blog/2024/03/30/springrestdocs-openapi3#%ED%9D%A9%EC%96%B4%EC%A0%B8-%EC%9E%88%EB%8A%94-yaml%ED%8C%8C%EC%9D%BC-%ED%86%B5%ED%95%A9" class="hash-link" aria-label="Direct link to 흩어져 있는 yaml파일 통합" title="Direct link to 흩어져 있는 yaml파일 통합">​</a></h3>
 <div class="language-gradle codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-gradle codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">task </span><span class="token function" style="color:hsl(221, 87%, 60%)">copyOpenApiSpecsToDocsDir</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">type</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">:</span><span class="token plain"> Copy</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	dependsOn </span><span class="token string" style="color:hsl(119, 34%, 47%)">':api:member:openapi3'</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	dependsOn </span><span class="token string" style="color:hsl(119, 34%, 47%)">':api:store:makeOpenapi'</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	dependsOn </span><span class="token string" style="color:hsl(119, 34%, 47%)">':api:event:openapi3'</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token comment" style="color:hsl(230, 4%, 64%)">// member</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	from </span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">"</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">${</span><span class="token interpolation-string interpolation expression keyword" style="color:hsl(301, 63%, 40%)">project</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token interpolation-string interpolation expression string" style="color:hsl(119, 34%, 47%)">':api:member'</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token interpolation-string interpolation expression">buildDir</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">/api-spec/member-openapi.yaml"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	into </span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">"</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">${</span><span class="token interpolation-string interpolation expression keyword" style="color:hsl(301, 63%, 40%)">project</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token interpolation-string interpolation expression">rootDir</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">/docs/openapi"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token comment" style="color:hsl(230, 4%, 64%)">// product</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	from </span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">"</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">${</span><span class="token interpolation-string interpolation expression keyword" style="color:hsl(301, 63%, 40%)">project</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token interpolation-string interpolation expression string" style="color:hsl(119, 34%, 47%)">':api:store'</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token interpolation-string interpolation expression">buildDir</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">/api-spec/store-openapi.yaml"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	into </span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">"</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">${</span><span class="token interpolation-string interpolation expression keyword" style="color:hsl(301, 63%, 40%)">project</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token interpolation-string interpolation expression">rootDir</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">/docs/openapi"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token comment" style="color:hsl(230, 4%, 64%)">//event</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	from </span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">"</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">${</span><span class="token interpolation-string interpolation expression keyword" style="color:hsl(301, 63%, 40%)">project</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token interpolation-string interpolation expression string" style="color:hsl(119, 34%, 47%)">':api:event'</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token interpolation-string interpolation expression">buildDir</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">/api-spec/event-openapi.yaml"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	into </span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">"</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">${</span><span class="token interpolation-string interpolation expression keyword" style="color:hsl(301, 63%, 40%)">project</span><span class="token interpolation-string interpolation expression punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token interpolation-string interpolation expression">rootDir</span><span class="token interpolation-string interpolation interpolation-punctuation punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token interpolation-string string" style="color:hsl(119, 34%, 47%)">/docs/openapi"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>위 스크립트를 작성해 각 api 모듈의 빌드 디렉토리에서, 루트의 /docs로 결과물을 복사하는 task를 생성했다.</p>
