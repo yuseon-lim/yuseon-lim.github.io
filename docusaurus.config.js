@@ -6,12 +6,12 @@ const config = {
   title: "도각도각 메모장",
   tagline: "개발관련 지식이나 생각을 메모하는 곳입니다.",
   favicon: "img/favicon.ico",
-  url: "https://dogakday.com",
+  url: "https://yuseon-lim.github.io",
   baseUrl: "/",
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "devyuseon", // Usually your GitHub org/user name.
-  projectName: "devyuseon.github.io", // Usually your repo name.
+  projectName: "yuseon-lim.github.io", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
